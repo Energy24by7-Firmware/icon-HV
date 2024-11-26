@@ -1,0 +1,121 @@
+-- ccache will be used for faster recompilation
+-- Building ESP-IDF components for target esp32
+Processing 1 dependencies:
+[1/1] idf (5.2.2)
+-- Project sdkconfig file C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- App "app-template" version: 9
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.2.2/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: Relay_Control Server_buffer app_trace app_update ble_server bootloader bootloader_support bt calibration cmock console cxx driver efuse esp-mqtt esp-tls esp32s2_fatal_err esp32s2_i2c_protocol esp32s2_pac1952 esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos gpio_control hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread ota partition_table perfmon protobuf-c protocol_examples_common protocomm pthread samples_read sdmmc soc spi_flash spiffs switch_detector tcp_transport ulp unity usb vfs wear_levelling wifi_mqtt wifi_provisioning wpa_supplicant xtensa
+-- Component paths: C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/Relay_Control C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/Server_buffer C:/Espressif/frameworks/esp-idf-v5.2.2/components/app_trace C:/Espressif/frameworks/esp-idf-v5.2.2/components/app_update C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/ble_server C:/Espressif/frameworks/esp-idf-v5.2.2/components/bootloader C:/Espressif/frameworks/esp-idf-v5.2.2/components/bootloader_support C:/Espressif/frameworks/esp-idf-v5.2.2/components/bt C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/calibration C:/Espressif/frameworks/esp-idf-v5.2.2/components/cmock C:/Espressif/frameworks/esp-idf-v5.2.2/components/console C:/Espressif/frameworks/esp-idf-v5.2.2/components/cxx C:/Espressif/frameworks/esp-idf-v5.2.2/components/driver C:/Espressif/frameworks/esp-idf-v5.2.2/components/efuse C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/esp-mqtt C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp-tls C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/esp32s2_fatal_err C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/esp32s2_i2c_protocol C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/esp32s2_pac1952 C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_adc C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_app_format C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_bootloader_format C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_coex C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_common C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_eth C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_event C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_gdbstub C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_hid C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_http_client C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_http_server C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_https_ota C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_https_server C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_hw_support C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_lcd C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_local_ctrl C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_mm C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_netif C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_netif_stack C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_partition C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_phy C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_pm C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_psram C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_ringbuf C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_rom C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_timer C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_wifi C:/Espressif/frameworks/esp-idf-v5.2.2/components/espcoredump C:/Espressif/frameworks/esp-idf-v5.2.2/components/esptool_py C:/Espressif/frameworks/esp-idf-v5.2.2/components/fatfs C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/gpio_control C:/Espressif/frameworks/esp-idf-v5.2.2/components/hal C:/Espressif/frameworks/esp-idf-v5.2.2/components/heap C:/Espressif/frameworks/esp-idf-v5.2.2/components/http_parser C:/Espressif/frameworks/esp-idf-v5.2.2/components/idf_test C:/Espressif/frameworks/esp-idf-v5.2.2/components/ieee802154 C:/Espressif/frameworks/esp-idf-v5.2.2/components/json C:/Espressif/frameworks/esp-idf-v5.2.2/components/log C:/Espressif/frameworks/esp-idf-v5.2.2/components/lwip C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/main C:/Espressif/frameworks/esp-idf-v5.2.2/components/mbedtls C:/Espressif/frameworks/esp-idf-v5.2.2/components/mqtt C:/Espressif/frameworks/esp-idf-v5.2.2/components/newlib C:/Espressif/frameworks/esp-idf-v5.2.2/components/nvs_flash C:/Espressif/frameworks/esp-idf-v5.2.2/components/nvs_sec_provider C:/Espressif/frameworks/esp-idf-v5.2.2/components/openthread C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/ota C:/Espressif/frameworks/esp-idf-v5.2.2/components/partition_table C:/Espressif/frameworks/esp-idf-v5.2.2/components/perfmon C:/Espressif/frameworks/esp-idf-v5.2.2/components/protobuf-c C:/Espressif/frameworks/esp-idf-v5.2.2/examples/common_components/protocol_examples_common C:/Espressif/frameworks/esp-idf-v5.2.2/components/protocomm C:/Espressif/frameworks/esp-idf-v5.2.2/components/pthread C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/samples_read C:/Espressif/frameworks/esp-idf-v5.2.2/components/sdmmc C:/Espressif/frameworks/esp-idf-v5.2.2/components/soc C:/Espressif/frameworks/esp-idf-v5.2.2/components/spi_flash C:/Espressif/frameworks/esp-idf-v5.2.2/components/spiffs C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/switch_detector C:/Espressif/frameworks/esp-idf-v5.2.2/components/tcp_transport C:/Espressif/frameworks/esp-idf-v5.2.2/components/ulp C:/Espressif/frameworks/esp-idf-v5.2.2/components/unity C:/Espressif/frameworks/esp-idf-v5.2.2/components/usb C:/Espressif/frameworks/esp-idf-v5.2.2/components/vfs C:/Espressif/frameworks/esp-idf-v5.2.2/components/wear_levelling C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/wifi_mqtt C:/Espressif/frameworks/esp-idf-v5.2.2/components/wifi_provisioning C:/Espressif/frameworks/esp-idf-v5.2.2/components/wpa_supplicant C:/Espressif/frameworks/esp-idf-v5.2.2/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/build
+[0/1] Re-running CMake...
+[1/23] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.2.2\My_Projects\iCON_HV_FirmwareV1\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.2.2/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6860 bytes. 0x7a0 bytes (7%) free.
+[2/21] Building C object esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/esp_app_desc.c.obj
+[3/21] Linking C static library esp-idf\esp_app_format\libesp_app_format.a
+[4/21] Building C object esp-idf/wifi_mqtt/CMakeFiles/__idf_wifi_mqtt.dir/wifi_mqtt.c.obj
+In file included from C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/wifi_mqtt/wifi_mqtt.c:3:
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/wifi_mqtt/include/wifi_mqtt.h:26: warning: "MQTT_BROKER_URI" redefined
+   26 | #define MQTT_BROKER_URI "mqtt://64.227.135.103:1883" // "mqtt://your_broker_address:port"
+      | 
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/wifi_mqtt/wifi_mqtt.c:1: note: this is the location of the previous definition
+    1 | #define MQTT_BROKER_URI "mqtt://3.109.234.14:1883" // MQTT broker URI
+      | 
+[5/21] Building C object esp-idf/ble_server/CMakeFiles/__idf_ble_server.dir/ble_server.c.obj
+[6/21] Linking C static library esp-idf\wifi_mqtt\libwifi_mqtt.a
+[7/21] Building C object esp-idf/samples_read/CMakeFiles/__idf_samples_read.dir/samples_read.c.obj
+In file included from C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/samples_read/samples_read.c:9:
+C:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/samples_read/samples_read.c: In function 'adc_check_config':
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/samples_read/samples_read.c:75:5: warning: 'ADC_ATTEN_DB_11' is deprecated [-Wdeprecated-declarations]
+   75 |     esp_err_t status = adc1_config_channel_atten(channel, ADC_ATTEN_DB_11); // Use ADC_ATTEN_DB_12
+      |     ^~~~~~~~~
+In file included from C:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/deprecated/driver/adc_types_legacy.h:8,
+                 from C:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/deprecated/driver/adc.h:15:
+C:/Espressif/frameworks/esp-idf-v5.2.2/components/hal/include/hal/adc_types.h:51:5: note: declared here
+   51 |     ADC_ATTEN_DB_11 __attribute__((deprecated)) = ADC_ATTEN_DB_12,  ///<This is deprecated, it behaves the same as `ADC_ATTEN_DB_12`
+      |     ^~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/samples_read/samples_read.c: In function 'samples_read_init':
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/samples_read/samples_read.c:143:5: warning: 'ADC_ATTEN_DB_11' is deprecated [-Wdeprecated-declarations]
+  143 |     esp_err_t status = adc2_config_channel_atten(ADC2_CHANNEL_SSR_TEMP, ADC_ATTEN_DB_11); // Use ADC_ATTEN_DB_12
+      |     ^~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.2/components/hal/include/hal/adc_types.h:51:5: note: declared here
+   51 |     ADC_ATTEN_DB_11 __attribute__((deprecated)) = ADC_ATTEN_DB_12,  ///<This is deprecated, it behaves the same as `ADC_ATTEN_DB_12`
+      |     ^~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/samples_read/samples_read.c: In function 'read_adc_all':
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/samples_read/samples_read.c:311:14: warning: unused variable 'uint16_pac_reg' [-Wunused-variable]
+  311 |     uint16_t uint16_pac_reg = 0; // Changed int16_t to uint16_t
+      |              ^~~~~~~~~~~~~~
+[8/21] Linking C static library esp-idf\ble_server\libble_server.a
+[9/21] Linking C static library esp-idf\samples_read\libsamples_read.a
+[10/21] Building C object esp-idf/Relay_Control/CMakeFiles/__idf_Relay_Control.dir/Relay_Control.c.obj
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/Relay_Control/Relay_Control.c:80:1: warning: ignoring attribute 'section (".iram1.1")' because it conflicts with previous 'section (".iram1.0")' [-Wattributes]
+   80 | {
+      | ^
+In file included from C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/Relay_Control/Relay_Control.c:11:
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/Relay_Control/include/Relay_Control.h:57:16: note: previous declaration here
+   57 | void IRAM_ATTR alert_isr_handler();
+      |                ^~~~~~~~~~~~~~~~~
+[11/21] Building C object esp-idf/ota/CMakeFiles/__idf_ota.dir/ota.c.obj
+[12/21] Linking C static library esp-idf\Relay_Control\libRelay_Control.a
+[13/21] Linking C static library esp-idf\ota\libota.a
+[14/21] Building C object esp-idf/Server_buffer/CMakeFiles/__idf_Server_buffer.dir/Server_buffer.c.obj
+In file included from C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/samples_read/include/samples_read.h:7,
+                 from C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/Server_buffer/Server_buffer.c:33:
+C:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/Server_buffer/Server_buffer.c: In function 'monitor_time_and_mqtt_task':
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/Server_buffer/Server_buffer.c:1320:17: warning: unused variable 'spiffs_data_saved' [-Wunused-variable]
+ 1320 |     static bool spiffs_data_saved = false; // Flag to indicate data saved to SPIFFS
+      |                 ^~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/Server_buffer/Server_buffer.c:1319:17: warning: unused variable 'has_checked_failed_data' [-Wunused-variable]
+ 1319 |     static bool has_checked_failed_data = false; // Flag to indicate data sent or saved
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/Server_buffer/Server_buffer.c: In function 'detect_state_change':
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/Server_buffer/Server_buffer.c:1562:22: warning: variable 'all_publish_success' set but not used [-Wunused-but-set-variable]
+ 1562 |                 bool all_publish_success = true;
+      |                      ^~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/Server_buffer/Server_buffer.c: At top level:
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/Server_buffer/Server_buffer.c:970:13: warning: 'current_file_name' defined but not used [-Wunused-variable]
+  970 | static char current_file_name[MAX_FILENAME_LENGTH]; // To store the current file name
+      |             ^~~~~~~~~~~~~~~~~
+[15/21] Linking C static library esp-idf\Server_buffer\libServer_buffer.a
+[16/21] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+In file included from C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/samples_read/include/samples_read.h:7,
+                 from C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/main/main.c:26:
+C:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/main/main.c:35:
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/ota/include/ota.h:16:13: warning: 'ota_write_data' defined but not used [-Wunused-variable]
+   16 | static char ota_write_data[BUFFSIZE + 1] = { 0 };
+      |             ^~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/ota/include/ota.h:10:20: warning: 'TAG' defined but not used [-Wunused-variable]
+   10 | static const char *TAG = "native_ota_example";
+      |                    ^~~
+[17/21] Linking C static library esp-idf\main\libmain.a
+[18/21] Generating ld/sections.ld
+[19/21] Linking CXX executable app-template.elf
+[20/21] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/build/app-template.bin
+[21/21] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.2.2\My_Projects\iCON_HV_FirmwareV1\build\esp-idf\esptool_py && C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.2.2/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/build/partition_table/partition-table.bin C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/build/app-template.bin"
+app-template.bin binary size 0x107cc0 bytes. Smallest app partition is 0x140000 bytes. 0x38340 bytes (18%) free.

@@ -1,0 +1,2536 @@
+��[0m
+[0;32mI (7414) DATA_MANAGEMENT: Initializing SNTP...[0m
+[0;32mI (7414) DATA_MANAGEMENT: Waiting for system time to be set... (1/10)[0m
+[0;32mI (9414) DATA_MANAGEMENT: Waiting for system time to be set... (2/10)[0m
+[0;32mI (9864) DATA_MANAGEMENT: Got time adjustment from NTP![0m
+[0;32mI (11414) DATA_MANAGEMENT: MAC address read from NVS: C4:D8:D5:64:9D:5C[0m
+[0;32mI (11414) DATA_MANAGEMENT: MAC address from NVS: C4:D8:D5:64:9D:5C[0m
+[0;32mI (11414) DATA_MANAGEMENT: Sensor semaphore created.[0m
+
+[0;32mI (11424) CALIBRATION: Calibration flag status: true[0m
+[0;32mI (11424) CALIBRATION: Reading calibration constants from NVS...[0m
+[0;32mI (11434) CALIBRATION: Calibration constants read successfully[0m
+[0;32mI (11434) CALIBRATION: Calibration data: Solar Voltage: 164.64, Solar Current: 0.01, Battery Voltage: 171.43, Temperature: 35.67[0m
+[0;32mI (11454) IST Time: Current IST Time: 2024/11/15 15:03:46[0m
+collect_data_task called
+[0;32mI (11464) ADC_READING: Reference Voltage: 0.17 V[0m
+[0;33mW (11464) device_control_task: Failed to take semaphore. No data received.[0m
+Temp < 65 
+initial_stage :solar_voltage < battery_voltage & initial_stage flag Reset
+[0;32mI (11484) Relay_Control: initial_stage :Load supported by utility grid & battery charged by utility grid[0m
+[0;32mI (11484) ADC_READING: Reference voltage saved to EEPROM[0m
+[0;32mI (11494) Relay_Control: Starting battery voltage monitoring for main failure detection...[0m
+LED changed
+[0;32mI (11494) ADC_READING: Reference voltage loaded from EEPROM[0m
+[0;32mI (11514) ADC_READING: Reference Voltage: 0.17 V[0m
+[0;32mI (11504) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (11514) DATA_MANAGEMENT: Reference Voltage: 0.17 V[0m
+[0;32mI (11504) Relay_Control: Current state: 5[0m
+[0;32mI (11534) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+Maintained the state for 5 seconds. Timer completed.
+[0;32mI (11544) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (11544) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (11554) DATA_MANAGEMENT: power_supply_voltage: 11.79 V[0m
+[0;32mI (11494) native_ota_example: OTA example app_main start[0m
+[0;32mI (11564) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (11574) native_ota_example: SHA-256 for the partition table: : 792d4a0792497edcbcce0853bacab6dc369486c2d469b131dc48a2977681879b[0m
+[0;32mI (11574) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (11594) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (11594) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (11594) native_ota_example: SHA-256 for bootloader: : 463d69936d698e2226fa5b47f19697990e7104ed42e9df71829174a8e0c20099[0m
+[0;32mI (11494) main_task: Returned from app_main()[0m
+[0;32mI (11674) Vbusavg: CH[1] Vbus avg: 93[0m
+[0;32mI (11804) Vbusavg: CH[2] Vbus avg: 175[0m
+Vsense1 of pac1952(current): -4
+Vsense2 of pac1952: 2
+VBus1 of pac1952(Battery): 93
+VBus2 of pac1952(Solar): 175
+[0;32mI (11934) native_ota_example: SHA-256 for current firmware: : 285f84b0025e74aae86322a8090fd6722402514b862042977c8edbfde119c0fd[0m
+[0;32mI (11934) native_ota_example: Waiting for a new firmware ... 1[0m
+[0;32mI (12104) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (12104) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (12104) DATA_MANAGEMENT: power_supply_voltage: 11.72 V[0m
+[0;32mI (12104) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (12114) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (12124) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (12124) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (12204) Vbusavg: CH[1] Vbus avg: 91[0m
+[0;32mI (12324) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -7
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 91
+VBus2 of pac1952(Solar): 177
+Current LED: BLUE
+BLUE LED is ON
+[0;32mI (12544) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (12554) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.11 V, Solar Voltage: 14.22 V, Solar Current: -0.07 A, Temp 1: 0.00 C[0m
+Temp < 65 
+[0;32mI (12554) Relay_Control: SOLAR_RELAY_PIN ON ,SUNUP FLAG SET[0m
+
+initial_stage :solar_voltage > battery_voltage & initial_stage flag set
+[0;32mI (12564) Relay_Control: initial_stage :Load supported by Battery + solar energy & battery charged by solar energy.[0m
+[0;32mI (12574) STATE - 7: Solar_assisted_battery_charging Mode[0m
+MOSFET ON for activate STATE- 7
+[0;32mI (12624) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (12624) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (12624) DATA_MANAGEMENT: power_supply_voltage: 11.77 V[0m
+[0;32mI (12624) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (12634) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (12634) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (12644) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (12724) Vbusavg: CH[1] Vbus avg: 176[0m
+[0;32mI (12784) STATE - 7: Solar_assisted_battery_charging Mode flag set to 1[0m
+
+2nd STAGE :battery_voltage < BATTERY_MAX_THRESHOLD & batteryHigherThanMaxThreshold flag Not_Set
+[0;32mI (12784) STATE:7: Checking time difference: 0[0m
+[0;32mI (12794) Relay_Control: Current state: 7[0m
+STATE CHANGE OCCURRED: Previous state = 5, New state = 7
+[0;32mI (12804) DATA_MANAGEMENT: STATE CHANGE OCCURRED.
+[0m
+[0;32mI (12844) Vbusavg: CH[2] Vbus avg: 175[0m
+Vsense1 of pac1952(current): 2
+Vsense2 of pac1952: 1
+VBus1 of pac1952(Battery): 176
+VBus2 of pac1952(Solar): 175
+[0;32mI (13044) STATE_CHANGE: State change occurred[0m
+[0;32mI (13144) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (13144) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (13144) DATA_MANAGEMENT: power_supply_voltage: 11.77 V[0m
+[0;32mI (13144) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (13154) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (13154) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (13164) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (13244) Vbusavg: CH[1] Vbus avg: 177[0m
+[0;32mI (13364) Vbusavg: CH[2] Vbus avg: 176[0m
+Vsense1 of pac1952(current): 3
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 177
+VBus2 of pac1952(Solar): 176
+BLUE LED is OFF
+[0;32mI (13554) Relay_Control: No overvoltage detected on CH1[0m
+LED changed
+[0;32mI (13664) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (13664) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (13664) DATA_MANAGEMENT: power_supply_voltage: 11.75 V[0m
+[0;32mI (13664) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (13674) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (13674) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (13684) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (13764) Vbusavg: CH[1] Vbus avg: 175[0m
+[0;32mI (13804) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 13.82 V, Solar Voltage: 14.14 V, Solar Current: 0.03 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+2nd STAGE :battery_voltage > BATTERY_MAX_THRESHOLD 
+Goes to FT mode in second stage 
+[0;32mI (13814) STATE - 4: Force_Trip Mode[0m
+[0;32mI (13884) Vbusavg: CH[2] Vbus avg: 176[0m
+Vsense1 of pac1952(current): 3
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 175
+VBus2 of pac1952(Solar): 176
+[0;32mI (14014) STATE - 4: Force Trip flag set to 1[0m
+In 2nd stage :5 second timer starts in STATE : 4
+2nd STAGE : batteryHigherThanMaxThreshold set hence goes to 3rd section
+
+[0;32mI (14014) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (14024) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (14034) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (14054) Relay_Control: Current state: 4[0m
+STATE CHANGE OCCURRED: Previous state = 7, New state = 4
+[0;32mI (14064) DATA_MANAGEMENT: STATE CHANGE OCCURRED.
+[0m
+LED changed
+[0;32mI (14184) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (14184) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (14184) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (14184) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (14194) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (14194) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (14204) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (14284) Vbusavg: CH[1] Vbus avg: 96[0m
+[0;32mI (14404) Vbusavg: CH[2] Vbus avg: 176[0m
+Vsense1 of pac1952(current): -21
+Vsense2 of pac1952: 1
+VBus1 of pac1952(Battery): 96
+VBus2 of pac1952(Solar): 176
+[0;32mI (14564) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (14704) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (14704) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (14704) DATA_MANAGEMENT: power_supply_voltage: 12.33 V[0m
+[0;32mI (14704) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (14714) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (14714) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (14724) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (14804) Vbusavg: CH[1] Vbus avg: 97[0m
+[0;32mI (14924) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -21
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 97
+VBus2 of pac1952(Solar): 177
+[0;32mI (15044) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=12663[0m
+[0;32mI (15054) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=2696[0m
+[0;32mI (15054) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=15882[0m
+[0;32mI (15064) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.57 V, Solar Voltage: 14.22 V, Solar Current: -0.22 A, Temp 1: 0.00 C[0m
+[0;32mI (15064) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=40592[0m
+Temp < 65 
+
+[0;32mI (15084) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (15084) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=54300[0m
+[0;32mI (15084) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+[0;32mI (15094) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=35329[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (15114) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=12564[0m
+[0;32mI (15114) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (15124) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=8242[0m
+[0;32mI (15134) Relay_Control: Current state: 4[0m
+[0;32mI (15144) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (15144) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=49455[0m
+[0;32mI (15164) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=51529[0m
+[0;32mI (15174) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=29232[0m
+[0;32mI (15184) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=36894[0m
+[0;32mI (15184) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=24373[0m
+[0;32mI (15194) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=28497[0m
+[0;32mI (15194) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=10716[0m
+[0;32mI (15214) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=24827[0m
+[0;32mI (15214) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=36686[0m
+[0;32mI (15224) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (15224) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=58945[0m
+[0;32mI (15224) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (15234) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (15244) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (15244) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;32mI (15234) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=33666[0m
+[0;31mE (15254) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (15264) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=5921[0m
+[0;32mI (15264) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (15284) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=43860[0m
+[0;32mI (15294) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=35055[0m
+[0;32mI (15304) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=12748[0m
+[0;32mI (15314) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=39322[0m
+[0;32mI (15314) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=13224[0m
+[0;32mI (15324) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=15196[0m
+[0;32mI (15324) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=48048[0m
+[0;32mI (15334) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=34882[0m
+[0;32mI (15344) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=38698[0m
+[0;32mI (15354) Vbusavg: CH[1] Vbus avg: 95[0m
+[0;32mI (15354) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=55446[0m
+[0;32mI (15364) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=7316[0m
+[0;32mI (15364) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=58109[0m
+[0;32mI (15374) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=61051[0m
+[0;32mI (15384) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=33900[0m
+[0;32mI (15394) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=755[0m
+[0;32mI (15394) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=6268[0m
+[0;32mI (15404) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=56107[0m
+[0;32mI (15414) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=31395[0m
+[0;32mI (15414) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=5040[0m
+[0;32mI (15424) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=7071[0m
+[0;32mI (15434) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=35266[0m
+[0;32mI (15444) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=12845[0m
+[0;32mI (15444) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=26519[0m
+[0;32mI (15454) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=56233[0m
+[0;32mI (15464) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=38711[0m
+[0;32mI (15474) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=15688[0m
+[0;32mI (15474) Vbusavg: CH[2] Vbus avg: 178[0m
+[0;32mI (15484) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=64309[0m
+[0;32mI (15494) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=53196[0m
+[0;32mI (15494) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=20505[0m
+[0;32mI (15504) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=42657[0m
+[0;32mI (15574) Relay_Control: No overvoltage detected on CH1[0m
+Vsense1 of pac1952(current): -24
+Vsense2 of pac1952: 3
+VBus1 of pac1952(Battery): 95
+VBus2 of pac1952(Solar): 178
+[0;32mI (15774) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (15774) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (15774) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (15774) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (15784) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (15794) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (15794) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (15874) Vbusavg: CH[1] Vbus avg: 95[0m
+[0;32mI (15994) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -19
+Vsense2 of pac1952: 3
+VBus1 of pac1952(Battery): 95
+VBus2 of pac1952(Solar): 177
+[0;32mI (16154) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.42 V, Solar Voltage: 14.22 V, Solar Current: -0.20 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (16154) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (16164) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (16174) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (16194) Relay_Control: Current state: 4[0m
+[0;32mI (16194) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (16294) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (16294) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (16294) DATA_MANAGEMENT: power_supply_voltage: 12.30 V[0m
+[0;32mI (16294) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (16304) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (16304) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (16314) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (16394) Vbusavg: CH[1] Vbus avg: 95[0m
+
+[0;32mI (16454) IST Time: Current IST Time: 2024/11/15 15:03:51[0m
+[0;32mI (16514) Vbusavg: CH[2] Vbus avg: 177[0m
+[0;32mI (16584) Relay_Control: Overvoltage alert triggered on CH1[0m
+Vsense1 of pac1952(current): -21
+Vsense2 of pac1952: 2
+VBus1 of pac1952(Battery): 95
+VBus2 of pac1952(Solar): 177
+[0;32mI (16814) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (16814) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (16814) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (16814) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (16824) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (16824) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (16834) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (16914) Vbusavg: CH[1] Vbus avg: 94[0m
+[0;32mI (17034) Vbusavg: CH[2] Vbus avg: 176[0m
+Vsense1 of pac1952(current): -21
+Vsense2 of pac1952: 2
+VBus1 of pac1952(Battery): 94
+VBus2 of pac1952(Solar): 176
+[0;32mI (17204) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.34 V, Solar Voltage: 14.14 V, Solar Current: -0.22 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (17204) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (17214) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (17224) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (17244) Relay_Control: Current state: 4[0m
+[0;32mI (17244) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (17334) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (17334) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (17334) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (17334) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (17344) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (17344) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (17354) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (17434) Vbusavg: CH[1] Vbus avg: 94[0m
+[0;32mI (17554) Vbusavg: CH[2] Vbus avg: 177[0m
+[0;32mI (17594) Relay_Control: No overvoltage detected on CH1[0m
+Vsense1 of pac1952(current): -19
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 94
+VBus2 of pac1952(Solar): 177
+[0;32mI (17854) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (17854) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (17854) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (17854) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (17864) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (17864) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (17874) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (17954) Vbusavg: CH[1] Vbus avg: 95[0m
+[0;32mI (18074) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -21
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 95
+VBus2 of pac1952(Solar): 177
+[0;32mI (18254) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.42 V, Solar Voltage: 14.22 V, Solar Current: -0.22 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (18254) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (18264) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (18274) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (18294) Relay_Control: Current state: 4[0m
+[0;32mI (18294) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (18374) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (18374) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (18374) DATA_MANAGEMENT: power_supply_voltage: 12.33 V[0m
+[0;32mI (18374) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (18384) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (18384) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (18394) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (18474) Vbusavg: CH[1] Vbus avg: 96[0m
+[0;32mI (18594) Vbusavg: CH[2] Vbus avg: 177[0m
+[0;32mI (18604) Relay_Control: No overvoltage detected on CH1[0m
+Vsense1 of pac1952(current): -19
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 96
+VBus2 of pac1952(Solar): 177
+[0;32mI (18894) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (18894) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (18894) DATA_MANAGEMENT: power_supply_voltage: 12.34 V[0m
+[0;32mI (18894) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (18904) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (18904) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (18914) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (18994) Vbusavg: CH[1] Vbus avg: 94[0m
+Current LED: GREEN
+GREEN LED is ON
+[0;32mI (19114) Vbusavg: CH[2] Vbus avg: 176[0m
+Vsense1 of pac1952(current): -21
+Vsense2 of pac1952: 4
+VBus1 of pac1952(Battery): 94
+VBus2 of pac1952(Solar): 176
+[0;32mI (19294) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.34 V, Solar Voltage: 14.14 V, Solar Current: -0.22 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (19294) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (19304) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (19314) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (19334) Relay_Control: Current state: 4[0m
+Maintained the state for 5 seconds. Timer completed.
+[0;32mI (19334) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (19414) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (19414) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (19414) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (19414) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (19424) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (19424) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (19434) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (19514) Vbusavg: CH[1] Vbus avg: 96[0m
+[0;32mI (19614) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (19634) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -20
+Vsense2 of pac1952: 1
+VBus1 of pac1952(Battery): 96
+VBus2 of pac1952(Solar): 177
+[0;32mI (19934) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (19934) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (19934) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (19934) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (19944) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (19954) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (19954) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (20034) Vbusavg: CH[1] Vbus avg: 95[0m
+GREEN LED is OFF
+[0;32mI (20154) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -20
+Vsense2 of pac1952: 4
+VBus1 of pac1952(Battery): 95
+VBus2 of pac1952(Solar): 177
+[0;32mI (20344) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.42 V, Solar Voltage: 14.22 V, Solar Current: -0.21 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (20344) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (20354) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (20364) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (20384) Relay_Control: 3rd STAGE : Load supported by Battery + solar energy  & battery charged by solar energy.[0m
+[0;32mI (20394) STATE - 6: Solar_assisted_FT Mode[0m
+MOSFET ON for activate STATE- 6
+[0;32mI (20454) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (20454) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (20454) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (20454) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (20464) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (20464) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (20474) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (20554) Vbusavg: CH[1] Vbus avg: 176[0m
+[0;32mI (20594) STATE - 6: Solar_assisted_FT Mode flag set to 1[0m
+
+[0;32mI (20594) Relay_Control: 4th STAGE : batteryHigherThanMinThreshold section of code[0m
+4th STAGE :battery_voltage > BATTERY_LOW_THRESHOLD
+[0;32mI (20594) STATE:6: Checking time difference: 0[0m
+LED changed
+[0;32mI (20604) Relay_Control: Current state: 6[0m
+STATE CHANGE OCCURRED: Previous state = 4, New state = 6
+No rapid toggling detected, state change is valid.
+[0;32mI (20614) DATA_MANAGEMENT: STATE CHANGE OCCURRED.
+[0m
+[0;32mI (20624) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (20674) Vbusavg: CH[2] Vbus avg: 176[0m
+Vsense1 of pac1952(current): -15
+Vsense2 of pac1952: 1
+VBus1 of pac1952(Battery): 176
+VBus2 of pac1952(Solar): 176
+[0;32mI (20854) STATE_CHANGE: State change occurred[0m
+[0;32mI (20974) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (20974) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (20974) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (20974) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (20984) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (20994) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (20994) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (21074) Vbusavg: CH[1] Vbus avg: 177[0m
+[0;32mI (21194) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -12
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 177
+VBus2 of pac1952(Solar): 177
+
+[0;32mI (21454) IST Time: Current IST Time: 2024/11/15 15:03:56[0m
+[0;32mI (21494) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (21494) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (21494) DATA_MANAGEMENT: power_supply_voltage: 12.33 V[0m
+[0;32mI (21494) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (21504) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (21504) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (21514) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (21594) Vbusavg: CH[1] Vbus avg: 176[0m
+[0;32mI (21624) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 13.82 V, Solar Voltage: 14.22 V, Solar Current: -0.13 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+2nd STAGE :battery_voltage > BATTERY_MAX_THRESHOLD 
+Goes to FT mode in second stage 
+[0;32mI (21634) STATE - 4: Force_Trip Mode[0m
+[0;32mI (21644) Relay_Control: Overvoltage alert triggered on CH1[0m
+Overvoltage flag set to activate the interrupt!
+[0;32mI (21714) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): 0
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 176
+VBus2 of pac1952(Solar): 177
+[0;32mI (21834) STATE - 4: Force Trip flag set to 1[0m
+In 2nd stage :5 second timer starts in STATE : 4
+2nd STAGE : batteryHigherThanMaxThreshold set hence goes to 3rd section
+
+[0;32mI (21834) Relay_Control: 4th STAGE : batteryHigherThanMinThreshold section of code[0m
+4th STAGE :battery_voltage > BATTERY_MAX_THRESHOLD & batteryHigherThanMaxThreshold flag set
+[0;32mI (21854) Relay_Control: Current state: 4[0m
+STATE CHANGE OCCURRED: Previous state = 6, New state = 4
+Rapid toggle detected between STATE :4 and STATE :6 within 8 seconds. State change ignored.
+Toggling detected, hence returns False
+[0;32mI (21874) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+LED changed
+[0;32mI (22014) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (22014) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (22014) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (22014) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (22024) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (22034) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (22034) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (22114) Vbusavg: CH[1] Vbus avg: 98[0m
+[0;32mI (22234) Vbusavg: CH[2] Vbus avg: 176[0m
+Vsense1 of pac1952(current): -18
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 98
+VBus2 of pac1952(Solar): 176
+[0;32mI (22534) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (22534) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (22534) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (22534) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (22544) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (22554) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (22554) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (22634) Vbusavg: CH[1] Vbus avg: 98[0m
+[0;32mI (22654) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (22754) Vbusavg: CH[2] Vbus avg: 178[0m
+Vsense1 of pac1952(current): -21
+Vsense2 of pac1952: 2
+VBus1 of pac1952(Battery): 98
+VBus2 of pac1952(Solar): 178
+[0;32mI (22854) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=58102[0m
+[0;32mI (22864) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=63524[0m
+[0;32mI (22864) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=39940[0m
+[0;32mI (22874) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.65 V, Solar Voltage: 14.30 V, Solar Current: -0.22 A, Temp 1: 0.00 C[0m
+[0;32mI (22884) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=7286[0m
+Temp < 65 
+
+[0;32mI (22894) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (22894) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=57586[0m
+[0;32mI (22904) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (22914) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=52512[0m
+[0;32mI (22924) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (22934) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=54579[0m
+[0;32mI (22944) Relay_Control: Current state: 4[0m
+[0;32mI (22954) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=62215[0m
+Toggling detected, hence returns False
+[0;32mI (22964) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=21973[0m
+[0;32mI (22964) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (22974) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=3892[0m
+[0;32mI (22984) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=52263[0m
+[0;32mI (22994) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=58889[0m
+[0;32mI (23004) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=29602[0m
+[0;32mI (23004) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=47776[0m
+[0;32mI (23014) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=51407[0m
+[0;32mI (23024) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=55396[0m
+[0;32mI (23034) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=27294[0m
+[0;32mI (23034) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=13841[0m
+[0;32mI (23044) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=12894[0m
+[0;32mI (23054) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (23054) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (23064) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (23064) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (23074) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;32mI (23074) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=16466[0m
+[0;31mE (23074) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (23094) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (23094) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=43662[0m
+[0;32mI (23114) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=30797[0m
+[0;32mI (23114) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=5534[0m
+[0;32mI (23124) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=29990[0m
+[0;32mI (23134) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=61855[0m
+[0;32mI (23134) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=12704[0m
+[0;32mI (23144) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=37691[0m
+[0;32mI (23154) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=39469[0m
+[0;32mI (23164) Vbusavg: CH[1] Vbus avg: 97[0m
+[0;32mI (23164) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=48889[0m
+[0;32mI (23174) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=2827[0m
+[0;32mI (23174) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=44511[0m
+[0;32mI (23184) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=28868[0m
+[0;32mI (23194) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=21695[0m
+[0;32mI (23194) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=7404[0m
+[0;32mI (23204) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=48739[0m
+[0;32mI (23214) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=65076[0m
+[0;32mI (23224) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=6990[0m
+[0;32mI (23234) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=15307[0m
+[0;32mI (23234) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=32675[0m
+[0;32mI (23244) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=47113[0m
+[0;32mI (23254) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=32052[0m
+[0;32mI (23264) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=9908[0m
+[0;32mI (23274) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=23717[0m
+[0;32mI (23274) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=34466[0m
+[0;32mI (23284) Vbusavg: CH[2] Vbus avg: 177[0m
+[0;32mI (23284) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=59438[0m
+[0;32mI (23294) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=18567[0m
+[0;32mI (23304) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=57871[0m
+[0;32mI (23304) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=36274[0m
+[0;32mI (23314) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=15674[0m
+[0;32mI (23324) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=23068[0m
+Vsense1 of pac1952(current): -23
+Vsense2 of pac1952: 1
+VBus1 of pac1952(Battery): 97
+VBus2 of pac1952(Solar): 177
+[0;32mI (23584) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (23584) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (23584) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (23584) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (23594) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (23604) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (23604) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (23664) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (23684) Vbusavg: CH[1] Vbus avg: 97[0m
+[0;32mI (23804) Vbusavg: CH[2] Vbus avg: 176[0m
+Vsense1 of pac1952(current): -18
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 97
+VBus2 of pac1952(Solar): 176
+[0;32mI (23974) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.57 V, Solar Voltage: 14.14 V, Solar Current: -0.19 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (23974) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (23984) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (23994) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (24014) Relay_Control: Current state: 4[0m
+Toggling detected, hence returns False
+[0;32mI (24014) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (24104) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (24104) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (24104) DATA_MANAGEMENT: power_supply_voltage: 12.30 V[0m
+[0;32mI (24104) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (24114) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (24124) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (24124) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (24204) Vbusavg: CH[1] Vbus avg: 97[0m
+[0;32mI (24324) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -20
+Vsense2 of pac1952: 5
+VBus1 of pac1952(Battery): 97
+VBus2 of pac1952(Solar): 177
+[0;32mI (24624) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (24624) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (24624) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (24624) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (24634) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (24634) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (24644) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (24674) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (24724) Vbusavg: CH[1] Vbus avg: 95[0m
+[0;32mI (24844) Vbusavg: CH[2] Vbus avg: 178[0m
+Vsense1 of pac1952(current): -20
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 95
+VBus2 of pac1952(Solar): 178
+[0;32mI (25024) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.42 V, Solar Voltage: 14.30 V, Solar Current: -0.21 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (25024) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (25034) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (25044) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (25064) Relay_Control: Current state: 4[0m
+Toggling detected, hence returns False
+[0;32mI (25064) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (25144) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (25144) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (25144) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (25144) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (25154) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (25154) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (25164) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (25244) Vbusavg: CH[1] Vbus avg: 96[0m
+[0;32mI (25364) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -19
+Vsense2 of pac1952: 2
+VBus1 of pac1952(Battery): 96
+VBus2 of pac1952(Solar): 177
+[0;32mI (25664) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (25664) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (25664) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (25664) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (25674) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (25674) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (25684) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (25684) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (25764) Vbusavg: CH[1] Vbus avg: 96[0m
+[0;32mI (25884) Vbusavg: CH[2] Vbus avg: 178[0m
+Vsense1 of pac1952(current): -21
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 96
+VBus2 of pac1952(Solar): 178
+[0;32mI (26074) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.50 V, Solar Voltage: 14.30 V, Solar Current: -0.22 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (26074) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (26084) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (26094) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (26114) Relay_Control: Current state: 4[0m
+Toggling detected, hence returns False
+[0;32mI (26114) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (26184) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (26184) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (26184) DATA_MANAGEMENT: power_supply_voltage: 12.30 V[0m
+[0;32mI (26184) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (26194) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (26194) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (26204) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (26284) Vbusavg: CH[1] Vbus avg: 96[0m
+[0;32mI (26404) Vbusavg: CH[2] Vbus avg: 177[0m
+
+[0;32mI (26454) IST Time: Current IST Time: 2024/11/15 15:04:01[0m
+Vsense1 of pac1952(current): -19
+Vsense2 of pac1952: 4
+VBus1 of pac1952(Battery): 96
+VBus2 of pac1952(Solar): 177
+[0;32mI (26704) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (26704) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (26704) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (26704) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (26714) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (26714) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (26724) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (26734) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (26804) Vbusavg: CH[1] Vbus avg: 96[0m
+Current LED: GREEN
+GREEN LED is ON
+[0;32mI (26924) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -23
+Vsense2 of pac1952: 2
+VBus1 of pac1952(Battery): 96
+VBus2 of pac1952(Solar): 177
+[0;32mI (27124) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.50 V, Solar Voltage: 14.22 V, Solar Current: -0.24 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (27124) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (27134) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (27144) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (27164) Relay_Control: Current state: 4[0m
+Maintained the state for 5 seconds. Timer completed.
+Toggling detected, hence returns False
+[0;32mI (27174) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (27224) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (27224) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (27224) DATA_MANAGEMENT: power_supply_voltage: 12.34 V[0m
+[0;32mI (27224) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (27234) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (27234) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (27244) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (27324) Vbusavg: CH[1] Vbus avg: 95[0m
+[0;32mI (27444) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -19
+Vsense2 of pac1952: 3
+VBus1 of pac1952(Battery): 95
+VBus2 of pac1952(Solar): 177
+[0;32mI (27714) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (27744) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (27744) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (27744) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (27744) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (27754) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (27754) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (27764) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (27844) Vbusavg: CH[1] Vbus avg: 96[0m
+GREEN LED is OFF
+[0;32mI (27964) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -20
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 96
+VBus2 of pac1952(Solar): 177
+[0;32mI (28174) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.50 V, Solar Voltage: 14.22 V, Solar Current: -0.21 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (28174) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (28184) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (28194) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (28214) Relay_Control: 3rd STAGE : Load supported by Battery + solar energy  & battery charged by solar energy.[0m
+[0;32mI (28224) STATE - 6: Solar_assisted_FT Mode[0m
+MOSFET ON for activate STATE- 6
+[0;32mI (28264) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (28264) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (28264) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (28264) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (28274) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (28274) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (28284) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (28364) Vbusavg: CH[1] Vbus avg: 177[0m
+[0;32mI (28424) STATE - 6: Solar_assisted_FT Mode flag set to 1[0m
+
+[0;32mI (28424) Relay_Control: 4th STAGE : batteryHigherThanMinThreshold section of code[0m
+4th STAGE :battery_voltage > BATTERY_LOW_THRESHOLD
+[0;32mI (28424) STATE:6: Checking time difference: 0[0m
+[0;32mI (28434) Relay_Control: Current state: 6[0m
+STATE CHANGE OCCURRED: Previous state = 4, New state = 6
+Rapid toggle detected between STATE :4 and STATE :6 within 8 seconds. State change ignored.
+Toggling detected, hence returns False
+[0;32mI (28454) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (28484) Vbusavg: CH[2] Vbus avg: 177[0m
+LED changed
+Vsense1 of pac1952(current): -14
+Vsense2 of pac1952: 2
+VBus1 of pac1952(Battery): 177
+VBus2 of pac1952(Solar): 177
+[0;32mI (28724) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (28784) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (28784) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (28784) DATA_MANAGEMENT: power_supply_voltage: 12.30 V[0m
+[0;32mI (28784) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (28794) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (28794) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (28804) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (28884) Vbusavg: CH[1] Vbus avg: 177[0m
+[0;32mI (29004) Vbusavg: CH[2] Vbus avg: 175[0m
+Vsense1 of pac1952(current): -13
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 177
+VBus2 of pac1952(Solar): 175
+[0;32mI (29304) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (29304) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (29304) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (29304) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (29314) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (29314) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (29324) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (29404) Vbusavg: CH[1] Vbus avg: 176[0m
+[0;32mI (29454) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 13.82 V, Solar Voltage: 14.06 V, Solar Current: -0.14 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+2nd STAGE :battery_voltage > BATTERY_MAX_THRESHOLD 
+Goes to FT mode in second stage 
+[0;32mI (29464) STATE - 4: Force_Trip Mode[0m
+[0;32mI (29524) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -10
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 176
+VBus2 of pac1952(Solar): 177
+[0;32mI (29664) STATE - 4: Force Trip flag set to 1[0m
+In 2nd stage :5 second timer starts in STATE : 4
+2nd STAGE : batteryHigherThanMaxThreshold set hence goes to 3rd section
+
+[0;32mI (29664) Relay_Control: 4th STAGE : batteryHigherThanMinThreshold section of code[0m
+4th STAGE :battery_voltage > BATTERY_MAX_THRESHOLD & batteryHigherThanMaxThreshold flag set
+[0;32mI (29684) Relay_Control: Current state: 4[0m
+STATE CHANGE OCCURRED: Previous state = 6, New state = 4
+Rapid toggle detected between STATE :4 and STATE :6 within 8 seconds. State change ignored.
+Toggling detected, hence returns False
+LED changed
+[0;32mI (29704) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (29734) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (29824) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (29824) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (29824) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (29824) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (29834) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (29834) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (29844) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (29924) Vbusavg: CH[1] Vbus avg: 100[0m
+[0;32mI (30044) Vbusavg: CH[2] Vbus avg: 176[0m
+Vsense1 of pac1952(current): -20
+Vsense2 of pac1952: 1
+VBus1 of pac1952(Battery): 100
+VBus2 of pac1952(Solar): 176
+[0;32mI (30344) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (30344) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (30344) DATA_MANAGEMENT: power_supply_voltage: 12.34 V[0m
+[0;32mI (30344) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (30354) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (30354) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (30364) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (30444) Vbusavg: CH[1] Vbus avg: 98[0m
+[0;32mI (30564) Vbusavg: CH[2] Vbus avg: 178[0m
+Vsense1 of pac1952(current): -20
+Vsense2 of pac1952: 2
+VBus1 of pac1952(Battery): 98
+VBus2 of pac1952(Solar): 178
+[0;32mI (30714) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.65 V, Solar Voltage: 14.30 V, Solar Current: -0.21 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (30714) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (30724) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (30734) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (30744) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (30754) Relay_Control: Current state: 4[0m
+Toggling detected, hence returns False
+[0;32mI (30764) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (30864) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (30864) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (30864) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (30864) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (30874) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (30874) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (30884) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (30964) Vbusavg: CH[1] Vbus avg: 98[0m
+[0;32mI (31084) Vbusavg: CH[2] Vbus avg: 176[0m
+Vsense1 of pac1952(current): -20
+Vsense2 of pac1952: 1
+VBus1 of pac1952(Battery): 98
+VBus2 of pac1952(Solar): 176
+[0;32mI (31384) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (31384) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (31384) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (31384) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (31394) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (31394) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (31404) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+
+[0;32mI (31454) IST Time: Current IST Time: 2024/11/15 15:04:06[0m
+[0;32mI (31484) Vbusavg: CH[1] Vbus avg: 97[0m
+[0;32mI (31604) Vbusavg: CH[2] Vbus avg: 176[0m
+Vsense1 of pac1952(current): -20
+Vsense2 of pac1952: 4
+VBus1 of pac1952(Battery): 97
+VBus2 of pac1952(Solar): 176
+[0;32mI (31764) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.57 V, Solar Voltage: 14.14 V, Solar Current: -0.21 A, Temp 1: 0.00 C[0m
+[0;32mI (31764) Relay_Control: No overvoltage detected on CH1[0m
+Temp < 65 
+
+[0;32mI (31774) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (31774) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (31794) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (31804) Relay_Control: Current state: 4[0m
+Toggling detected, hence returns False
+[0;32mI (31814) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (31904) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (31904) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (31904) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (31904) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (31914) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (31924) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (31924) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (32004) Vbusavg: CH[1] Vbus avg: 98[0m
+[0;32mI (32124) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -19
+Vsense2 of pac1952: 2
+VBus1 of pac1952(Battery): 98
+VBus2 of pac1952(Solar): 177
+[0;32mI (32424) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (32424) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (32424) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (32424) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (32434) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (32434) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (32444) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (32524) Vbusavg: CH[1] Vbus avg: 97[0m
+[0;32mI (32644) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -19
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 97
+VBus2 of pac1952(Solar): 177
+[0;32mI (32774) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (32814) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.57 V, Solar Voltage: 14.22 V, Solar Current: -0.20 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (32814) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (32824) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (32834) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (32854) Relay_Control: Current state: 4[0m
+Toggling detected, hence returns False
+[0;32mI (32854) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (32944) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (32944) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (32944) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (32944) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (32954) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (32964) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (32964) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (33044) Vbusavg: CH[1] Vbus avg: 97[0m
+[0;32mI (33164) Vbusavg: CH[2] Vbus avg: 178[0m
+Vsense1 of pac1952(current): -21
+Vsense2 of pac1952: 1
+VBus1 of pac1952(Battery): 97
+VBus2 of pac1952(Solar): 178
+[0;32mI (33464) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (33464) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (33464) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (33464) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (33474) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (33474) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (33484) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (33564) Vbusavg: CH[1] Vbus avg: 97[0m
+[0;32mI (33684) Vbusavg: CH[2] Vbus avg: 177[0m
+[0;32mI (33784) Relay_Control: No overvoltage detected on CH1[0m
+Vsense1 of pac1952(current): -21
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 97
+VBus2 of pac1952(Solar): 177
+[0;32mI (33864) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.57 V, Solar Voltage: 14.22 V, Solar Current: -0.22 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (33864) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (33874) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (33884) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (33894) Relay_Control: Current state: 4[0m
+Toggling detected, hence returns False
+[0;32mI (33904) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (33984) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (33984) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (33984) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (33984) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (33994) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (33994) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (34004) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (34084) Vbusavg: CH[1] Vbus avg: 97[0m
+[0;32mI (34204) Vbusavg: CH[2] Vbus avg: 176[0m
+Vsense1 of pac1952(current): -22
+Vsense2 of pac1952: 2
+VBus1 of pac1952(Battery): 97
+VBus2 of pac1952(Solar): 176
+[0;32mI (34504) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (34504) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (34504) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (34504) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (34514) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (34514) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (34524) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (34604) Vbusavg: CH[1] Vbus avg: 96[0m
+Current LED: GREEN
+GREEN LED is ON
+[0;32mI (34724) Vbusavg: CH[2] Vbus avg: 177[0m
+[0;32mI (34794) Relay_Control: No overvoltage detected on CH1[0m
+Vsense1 of pac1952(current): -19
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 96
+VBus2 of pac1952(Solar): 177
+[0;32mI (34914) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.50 V, Solar Voltage: 14.22 V, Solar Current: -0.20 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (34914) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (34924) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (34934) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (34954) Relay_Control: Current state: 4[0m
+Maintained the state for 5 seconds. Timer completed.
+Toggling detected, hence returns False
+[0;32mI (34964) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (35024) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (35024) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (35024) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (35024) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (35034) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (35034) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (35044) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (35124) Vbusavg: CH[1] Vbus avg: 96[0m
+[0;32mI (35244) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -18
+Vsense2 of pac1952: 3
+VBus1 of pac1952(Battery): 96
+VBus2 of pac1952(Solar): 177
+[0;32mI (35544) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (35544) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (35544) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (35544) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (35554) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (35554) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (35564) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (35644) Vbusavg: CH[1] Vbus avg: 96[0m
+GREEN LED is OFF
+[0;32mI (35764) Vbusavg: CH[2] Vbus avg: 175[0m
+[0;32mI (35804) Relay_Control: No overvoltage detected on CH1[0m
+Vsense1 of pac1952(current): -18
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 96
+VBus2 of pac1952(Solar): 175
+[0;32mI (35964) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.50 V, Solar Voltage: 14.06 V, Solar Current: -0.19 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (35964) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (35974) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (35984) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (35994) Relay_Control: 3rd STAGE : Load supported by Battery + solar energy  & battery charged by solar energy.[0m
+[0;32mI (36014) STATE - 6: Solar_assisted_FT Mode[0m
+MOSFET ON for activate STATE- 6
+[0;32mI (36064) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (36064) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (36064) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (36064) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (36074) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (36074) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (36084) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (36164) Vbusavg: CH[1] Vbus avg: 176[0m
+[0;32mI (36214) STATE - 6: Solar_assisted_FT Mode flag set to 1[0m
+
+[0;32mI (36214) Relay_Control: 4th STAGE : batteryHigherThanMinThreshold section of code[0m
+4th STAGE :battery_voltage > BATTERY_LOW_THRESHOLD
+[0;32mI (36214) STATE:6: Checking time difference: 0[0m
+[0;32mI (36224) Relay_Control: Current state: 6[0m
+STATE CHANGE OCCURRED: Previous state = 4, New state = 6
+Rapid toggle detected between STATE :4 and STATE :6 within 8 seconds. State change ignored.
+Toggling detected, hence returns False
+[0;32mI (36244) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (36284) Vbusavg: CH[2] Vbus avg: 176[0m
+LED changed
+Vsense1 of pac1952(current): -14
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 176
+VBus2 of pac1952(Solar): 176
+
+[0;32mI (36454) IST Time: Current IST Time: 2024/11/15 15:04:11[0m
+[0;32mI (36584) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (36584) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (36584) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (36584) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (36594) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (36594) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (36604) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (36684) Vbusavg: CH[1] Vbus avg: 177[0m
+[0;32mI (36804) Vbusavg: CH[2] Vbus avg: 177[0m
+[0;32mI (36814) Relay_Control: No overvoltage detected on CH1[0m
+Vsense1 of pac1952(current): -12
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 177
+VBus2 of pac1952(Solar): 177
+[0;32mI (37104) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (37104) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (37104) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (37104) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (37114) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (37114) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (37124) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (37204) Vbusavg: CH[1] Vbus avg: 177[0m
+[0;32mI (37244) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 13.82 V, Solar Voltage: 14.22 V, Solar Current: -0.13 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+2nd STAGE :battery_voltage > BATTERY_MAX_THRESHOLD 
+Goes to FT mode in second stage 
+[0;32mI (37254) STATE - 4: Force_Trip Mode[0m
+[0;32mI (37324) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -14
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 177
+VBus2 of pac1952(Solar): 177
+[0;32mI (37454) STATE - 4: Force Trip flag set to 1[0m
+In 2nd stage :5 second timer starts in STATE : 4
+2nd STAGE : batteryHigherThanMaxThreshold set hence goes to 3rd section
+
+[0;32mI (37454) Relay_Control: 4th STAGE : batteryHigherThanMinThreshold section of code[0m
+4th STAGE :battery_voltage > BATTERY_MAX_THRESHOLD & batteryHigherThanMaxThreshold flag set
+[0;32mI (37474) Relay_Control: Current state: 4[0m
+STATE CHANGE OCCURRED: Previous state = 6, New state = 4
+Rapid toggle detected between STATE :4 and STATE :6 within 8 seconds. State change ignored.
+Toggling detected, hence returns False
+[0;32mI (37494) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+LED changed
+[0;32mI (37624) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (37624) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (37624) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (37624) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (37634) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (37634) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (37644) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (37724) Vbusavg: CH[1] Vbus avg: 100[0m
+[0;32mI (37824) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (37844) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -19
+Vsense2 of pac1952: 3
+VBus1 of pac1952(Battery): 100
+VBus2 of pac1952(Solar): 177
+[0;32mI (38144) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (38144) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (38144) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (38144) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (38154) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (38154) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (38164) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (38244) Vbusavg: CH[1] Vbus avg: 99[0m
+[0;32mI (38364) Vbusavg: CH[2] Vbus avg: 178[0m
+Vsense1 of pac1952(current): -22
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 99
+VBus2 of pac1952(Solar): 178
+[0;32mI (38494) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.73 V, Solar Voltage: 14.30 V, Solar Current: -0.23 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (38494) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (38504) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (38514) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (38534) Relay_Control: Current state: 4[0m
+Toggling detected, hence returns False
+[0;32mI (38534) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (38664) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (38664) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (38664) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (38664) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (38674) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (38674) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (38684) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (38764) Vbusavg: CH[1] Vbus avg: 97[0m
+[0;32mI (38834) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (38884) Vbusavg: CH[2] Vbus avg: 178[0m
+Vsense1 of pac1952(current): -20
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 97
+VBus2 of pac1952(Solar): 178
+[0;32mI (39184) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (39184) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (39184) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (39184) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (39194) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (39194) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (39204) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (39284) Vbusavg: CH[1] Vbus avg: 98[0m
+[0;32mI (39404) Vbusavg: CH[2] Vbus avg: 176[0m
+Vsense1 of pac1952(current): -19
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 98
+VBus2 of pac1952(Solar): 176
+[0;32mI (39544) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.65 V, Solar Voltage: 14.14 V, Solar Current: -0.20 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (39544) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (39554) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (39564) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (39584) Relay_Control: Current state: 4[0m
+Toggling detected, hence returns False
+[0;32mI (39584) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (39704) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (39704) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (39704) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (39704) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (39714) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (39714) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (39724) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (39804) Vbusavg: CH[1] Vbus avg: 98[0m
+[0;32mI (39844) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (39924) Vbusavg: CH[2] Vbus avg: 178[0m
+Vsense1 of pac1952(current): -19
+Vsense2 of pac1952: 4
+VBus1 of pac1952(Battery): 98
+VBus2 of pac1952(Solar): 178
+[0;32mI (40224) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (40224) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (40224) DATA_MANAGEMENT: power_supply_voltage: 12.33 V[0m
+[0;32mI (40224) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (40234) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (40234) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (40244) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (40324) Vbusavg: CH[1] Vbus avg: 96[0m
+[0;32mI (40444) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -21
+Vsense2 of pac1952: 3
+VBus1 of pac1952(Battery): 96
+VBus2 of pac1952(Solar): 177
+[0;32mI (40594) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.50 V, Solar Voltage: 14.22 V, Solar Current: -0.22 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (40594) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (40604) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (40614) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (40634) Relay_Control: Current state: 4[0m
+Toggling detected, hence returns False
+[0;32mI (40634) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (40744) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (40744) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (40744) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (40744) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (40754) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (40754) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (40764) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (40844) Vbusavg: CH[1] Vbus avg: 97[0m
+[0;32mI (40854) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (40964) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -19
+Vsense2 of pac1952: 1
+VBus1 of pac1952(Battery): 97
+VBus2 of pac1952(Solar): 177
+[0;32mI (41264) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (41264) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (41264) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (41264) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (41274) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (41274) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (41284) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (41364) Vbusavg: CH[1] Vbus avg: 96[0m
+
+[0;32mI (41454) IST Time: Current IST Time: 2024/11/15 15:04:16[0m
+[0;32mI (41484) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -20
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 96
+VBus2 of pac1952(Solar): 177
+[0;32mI (41644) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.50 V, Solar Voltage: 14.22 V, Solar Current: -0.21 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (41644) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (41654) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (41664) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (41674) Relay_Control: Current state: 4[0m
+Toggling detected, hence returns False
+[0;32mI (41684) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (41784) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (41784) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (41784) DATA_MANAGEMENT: power_supply_voltage: 12.33 V[0m
+[0;32mI (41784) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (41794) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (41794) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (41804) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (41864) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (41884) Vbusavg: CH[1] Vbus avg: 96[0m
+[0;32mI (42004) Vbusavg: CH[2] Vbus avg: 176[0m
+Vsense1 of pac1952(current): -21
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 96
+VBus2 of pac1952(Solar): 176
+[0;32mI (42304) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (42304) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (42304) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (42304) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (42314) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (42314) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (42324) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (42404) Vbusavg: CH[1] Vbus avg: 96[0m
+Current LED: GREEN
+GREEN LED is ON
+[0;32mI (42524) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -20
+Vsense2 of pac1952: 1
+VBus1 of pac1952(Battery): 96
+VBus2 of pac1952(Solar): 177
+[0;32mI (42694) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.50 V, Solar Voltage: 14.22 V, Solar Current: -0.21 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (42694) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (42704) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (42714) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (42734) Relay_Control: Current state: 4[0m
+Maintained the state for 5 seconds. Timer completed.
+Toggling detected, hence returns False
+[0;32mI (42744) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (42824) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (42824) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (42824) DATA_MANAGEMENT: power_supply_voltage: 12.30 V[0m
+[0;32mI (42824) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (42834) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (42844) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (42844) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (42874) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (42924) Vbusavg: CH[1] Vbus avg: 96[0m
+[0;32mI (43044) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -21
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 96
+VBus2 of pac1952(Solar): 177
+[0;32mI (43344) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (43344) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (43344) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (43344) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (43354) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (43354) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (43364) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (43444) Vbusavg: CH[1] Vbus avg: 96[0m
+GREEN LED is OFF
+[0;32mI (43564) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -19
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 96
+VBus2 of pac1952(Solar): 177
+[0;32mI (43744) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.50 V, Solar Voltage: 14.22 V, Solar Current: -0.20 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (43744) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (43754) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (43764) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (43784) Relay_Control: 3rd STAGE : Load supported by Battery + solar energy  & battery charged by solar energy.[0m
+[0;32mI (43794) STATE - 6: Solar_assisted_FT Mode[0m
+MOSFET ON for activate STATE- 6
+[0;32mI (43864) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (43864) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (43864) DATA_MANAGEMENT: power_supply_voltage: 12.33 V[0m
+[0;32mI (43864) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (43874) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (43874) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (43884) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (43884) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (43964) Vbusavg: CH[1] Vbus avg: 176[0m
+[0;32mI (43994) STATE - 6: Solar_assisted_FT Mode flag set to 1[0m
+
+[0;32mI (43994) Relay_Control: 4th STAGE : batteryHigherThanMinThreshold section of code[0m
+4th STAGE :battery_voltage > BATTERY_LOW_THRESHOLD
+[0;32mI (43994) STATE:6: Checking time difference: 0[0m
+LED changed
+[0;32mI (44004) Relay_Control: Current state: 6[0m
+STATE CHANGE OCCURRED: Previous state = 4, New state = 6
+Rapid toggle detected between STATE :4 and STATE :6 within 8 seconds. State change ignored.
+Toggling detected, hence returns False
+[0;32mI (44024) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (44084) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -11
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 176
+VBus2 of pac1952(Solar): 177
+[0;32mI (44384) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (44384) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (44384) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (44384) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (44394) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (44394) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (44404) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (44484) Vbusavg: CH[1] Vbus avg: 177[0m
+[0;32mI (44604) Vbusavg: CH[2] Vbus avg: 176[0m
+Vsense1 of pac1952(current): -11
+Vsense2 of pac1952: 1
+VBus1 of pac1952(Battery): 177
+VBus2 of pac1952(Solar): 176
+[0;32mI (44904) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (44904) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (44904) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (44904) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (44914) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (44914) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (44924) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (44934) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (45004) Vbusavg: CH[1] Vbus avg: 176[0m
+[0;32mI (45034) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 13.82 V, Solar Voltage: 14.14 V, Solar Current: -0.12 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+2nd STAGE :battery_voltage > BATTERY_MAX_THRESHOLD 
+Goes to FT mode in second stage 
+[0;32mI (45044) STATE - 4: Force_Trip Mode[0m
+[0;32mI (45124) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -11
+Vsense2 of pac1952: 5
+VBus1 of pac1952(Battery): 176
+VBus2 of pac1952(Solar): 177
+[0;32mI (45244) STATE - 4: Force Trip flag set to 1[0m
+In 2nd stage :5 second timer starts in STATE : 4
+2nd STAGE : batteryHigherThanMaxThreshold set hence goes to 3rd section
+
+[0;32mI (45244) Relay_Control: 4th STAGE : batteryHigherThanMinThreshold section of code[0m
+4th STAGE :battery_voltage > BATTERY_MAX_THRESHOLD & batteryHigherThanMaxThreshold flag set
+[0;32mI (45264) Relay_Control: Current state: 4[0m
+STATE CHANGE OCCURRED: Previous state = 6, New state = 4
+Rapid toggle detected between STATE :4 and STATE :6 within 8 seconds. State change ignored.
+Toggling detected, hence returns False
+[0;32mI (45284) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+LED changed
+[0;32mI (45424) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (45424) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (45424) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (45424) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (45434) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (45434) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (45444) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (45524) Vbusavg: CH[1] Vbus avg: 100[0m
+[0;32mI (45644) Vbusavg: CH[2] Vbus avg: 178[0m
+Vsense1 of pac1952(current): -21
+Vsense2 of pac1952: 1
+VBus1 of pac1952(Battery): 100
+VBus2 of pac1952(Solar): 178
+[0;32mI (45914) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (45944) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (45944) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (45944) DATA_MANAGEMENT: power_supply_voltage: 12.36 V[0m
+[0;32mI (45944) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (45954) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (45954) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (45964) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (46044) Vbusavg: CH[1] Vbus avg: 100[0m
+[0;32mI (46164) Vbusavg: CH[2] Vbus avg: 176[0m
+Vsense1 of pac1952(current): -17
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 100
+VBus2 of pac1952(Solar): 176
+[0;32mI (46284) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.81 V, Solar Voltage: 14.14 V, Solar Current: -0.18 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (46284) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (46294) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (46304) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (46324) Relay_Control: Current state: 4[0m
+Toggling detected, hence returns False
+[0;32mI (46324) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+
+[0;32mI (46454) IST Time: Current IST Time: 2024/11/15 15:04:21[0m
+[0;32mI (46464) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (46464) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (46464) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (46464) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (46474) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (46474) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (46484) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (46564) Vbusavg: CH[1] Vbus avg: 98[0m
+[0;32mI (46684) Vbusavg: CH[2] Vbus avg: 178[0m
+Vsense1 of pac1952(current): -20
+Vsense2 of pac1952: 4
+VBus1 of pac1952(Battery): 98
+VBus2 of pac1952(Solar): 178
+[0;32mI (46924) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (46984) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (46984) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (46984) DATA_MANAGEMENT: power_supply_voltage: 12.33 V[0m
+[0;32mI (46984) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (46994) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (46994) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (47004) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (47084) Vbusavg: CH[1] Vbus avg: 97[0m
+[0;32mI (47204) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -20
+Vsense2 of pac1952: 3
+VBus1 of pac1952(Battery): 97
+VBus2 of pac1952(Solar): 177
+[0;32mI (47334) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.57 V, Solar Voltage: 14.22 V, Solar Current: -0.21 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (47334) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (47344) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (47354) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (47374) Relay_Control: Current state: 4[0m
+Toggling detected, hence returns False
+[0;32mI (47374) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (47504) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (47504) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (47504) DATA_MANAGEMENT: power_supply_voltage: 12.34 V[0m
+[0;32mI (47504) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (47514) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (47514) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (47524) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (47604) Vbusavg: CH[1] Vbus avg: 99[0m
+[0;32mI (47724) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -20
+Vsense2 of pac1952: 2
+VBus1 of pac1952(Battery): 99
+VBus2 of pac1952(Solar): 177
+[0;32mI (47934) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (48024) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (48024) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (48024) DATA_MANAGEMENT: power_supply_voltage: 12.36 V[0m
+[0;32mI (48024) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (48034) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (48034) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (48044) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (48124) Vbusavg: CH[1] Vbus avg: 97[0m
+[0;32mI (48244) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -18
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 97
+VBus2 of pac1952(Solar): 177
+[0;32mI (48384) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.57 V, Solar Voltage: 14.22 V, Solar Current: -0.19 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (48384) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (48394) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (48404) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (48424) Relay_Control: Current state: 4[0m
+Toggling detected, hence returns False
+[0;32mI (48424) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (48544) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (48544) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (48544) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (48544) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (48554) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (48554) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (48564) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (48644) Vbusavg: CH[1] Vbus avg: 97[0m
+[0;32mI (48764) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -20
+Vsense2 of pac1952: 3
+VBus1 of pac1952(Battery): 97
+VBus2 of pac1952(Solar): 177
+[0;32mI (48944) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (49064) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (49064) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (49064) DATA_MANAGEMENT: power_supply_voltage: 12.30 V[0m
+[0;32mI (49064) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (49074) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (49074) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (49084) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (49164) Vbusavg: CH[1] Vbus avg: 97[0m
+[0;32mI (49284) Vbusavg: CH[2] Vbus avg: 179[0m
+Vsense1 of pac1952(current): -20
+Vsense2 of pac1952: 2
+VBus1 of pac1952(Battery): 97
+VBus2 of pac1952(Solar): 179
+[0;32mI (49434) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.57 V, Solar Voltage: 14.38 V, Solar Current: -0.21 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (49434) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (49444) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (49454) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (49474) Relay_Control: Current state: 4[0m
+Toggling detected, hence returns False
+[0;32mI (49474) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (49584) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (49584) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (49584) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (49584) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (49594) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (49594) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (49604) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (49684) Vbusavg: CH[1] Vbus avg: 96[0m
+[0;32mI (49804) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -21
+Vsense2 of pac1952: 5
+VBus1 of pac1952(Battery): 96
+VBus2 of pac1952(Solar): 177
+[0;32mI (49954) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (50104) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (50104) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (50104) DATA_MANAGEMENT: power_supply_voltage: 12.33 V[0m
+[0;32mI (50104) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (50114) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (50114) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (50124) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (50204) Vbusavg: CH[1] Vbus avg: 97[0m
+Current LED: GREEN
+GREEN LED is ON
+[0;32mI (50324) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -21
+Vsense2 of pac1952: 5
+VBus1 of pac1952(Battery): 97
+VBus2 of pac1952(Solar): 177
+[0;32mI (50484) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.57 V, Solar Voltage: 14.22 V, Solar Current: -0.22 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (50484) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (50494) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (50504) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (50524) Relay_Control: Current state: 4[0m
+Maintained the state for 5 seconds. Timer completed.
+Toggling detected, hence returns False
+[0;32mI (50534) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (50624) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (50624) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (50624) DATA_MANAGEMENT: power_supply_voltage: 12.33 V[0m
+[0;32mI (50624) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (50634) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (50634) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (50644) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (50724) Vbusavg: CH[1] Vbus avg: 96[0m
+[0;32mI (50844) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -20
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 96
+VBus2 of pac1952(Solar): 177
+[0;32mI (50964) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (51144) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (51144) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (51144) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (51144) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (51154) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (51154) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (51164) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (51244) Vbusavg: CH[1] Vbus avg: 96[0m
+GREEN LED is OFF
+[0;32mI (51364) Vbusavg: CH[2] Vbus avg: 176[0m
+
+[0;32mI (51454) IST Time: Current IST Time: 2024/11/15 15:04:26[0m
+Vsense1 of pac1952(current): -21
+Vsense2 of pac1952: 1
+VBus1 of pac1952(Battery): 96
+VBus2 of pac1952(Solar): 176
+[0;32mI (51534) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.50 V, Solar Voltage: 14.14 V, Solar Current: -0.22 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (51534) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (51544) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (51554) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (51564) Relay_Control: 3rd STAGE : Load supported by Battery + solar energy  & battery charged by solar energy.[0m
+[0;32mI (51584) STATE - 6: Solar_assisted_FT Mode[0m
+MOSFET ON for activate STATE- 6
+[0;32mI (51664) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (51664) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (51664) DATA_MANAGEMENT: power_supply_voltage: 12.36 V[0m
+[0;32mI (51664) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (51674) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (51674) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (51684) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (51764) Vbusavg: CH[1] Vbus avg: 176[0m
+[0;32mI (51784) STATE - 6: Solar_assisted_FT Mode flag set to 1[0m
+
+[0;32mI (51784) Relay_Control: 4th STAGE : batteryHigherThanMinThreshold section of code[0m
+4th STAGE :battery_voltage > BATTERY_LOW_THRESHOLD
+[0;32mI (51784) STATE:6: Checking time difference: 0[0m
+[0;32mI (51794) Relay_Control: Current state: 6[0m
+STATE CHANGE OCCURRED: Previous state = 4, New state = 6
+LED changed
+Rapid toggle detected between STATE :4 and STATE :6 within 8 seconds. State change ignored.
+Toggling detected, hence returns False
+[0;32mI (51814) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (51884) Vbusavg: CH[2] Vbus avg: 176[0m
+[0;32mI (51974) Relay_Control: No overvoltage detected on CH1[0m
+Vsense1 of pac1952(current): -14
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 176
+VBus2 of pac1952(Solar): 176
+[0;32mI (52184) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (52184) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (52184) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (52184) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (52194) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (52194) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (52204) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (52284) Vbusavg: CH[1] Vbus avg: 177[0m
+[0;32mI (52404) Vbusavg: CH[2] Vbus avg: 176[0m
+Vsense1 of pac1952(current): -13
+Vsense2 of pac1952: 4
+VBus1 of pac1952(Battery): 177
+VBus2 of pac1952(Solar): 176
+[0;32mI (52704) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (52704) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (52704) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (52704) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (52714) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (52714) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (52724) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (52804) Vbusavg: CH[1] Vbus avg: 177[0m
+[0;32mI (52824) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 13.82 V, Solar Voltage: 14.14 V, Solar Current: -0.14 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+2nd STAGE :battery_voltage > BATTERY_MAX_THRESHOLD 
+Goes to FT mode in second stage 
+[0;32mI (52834) STATE - 4: Force_Trip Mode[0m
+[0;32mI (52924) Vbusavg: CH[2] Vbus avg: 177[0m
+[0;32mI (52984) Relay_Control: No overvoltage detected on CH1[0m
+Vsense1 of pac1952(current): -11
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 177
+VBus2 of pac1952(Solar): 177
+[0;32mI (53034) STATE - 4: Force Trip flag set to 1[0m
+In 2nd stage :5 second timer starts in STATE : 4
+2nd STAGE : batteryHigherThanMaxThreshold set hence goes to 3rd section
+
+[0;32mI (53034) Relay_Control: 4th STAGE : batteryHigherThanMinThreshold section of code[0m
+4th STAGE :battery_voltage > BATTERY_MAX_THRESHOLD & batteryHigherThanMaxThreshold flag set
+[0;32mI (53054) Relay_Control: Current state: 4[0m
+STATE CHANGE OCCURRED: Previous state = 6, New state = 4
+Rapid toggle detected between STATE :4 and STATE :6 within 8 seconds. State change ignored.
+Toggling detected, hence returns False
+[0;32mI (53074) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+LED changed
+[0;32mI (53224) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (53224) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (53224) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (53224) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (53234) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (53234) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (53244) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (53324) Vbusavg: CH[1] Vbus avg: 100[0m
+[0;32mI (53444) Vbusavg: CH[2] Vbus avg: 178[0m
+Vsense1 of pac1952(current): -21
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 100
+VBus2 of pac1952(Solar): 178
+[0;32mI (53744) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (53744) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (53744) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (53744) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (53754) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (53754) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (53764) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (53844) Vbusavg: CH[1] Vbus avg: 99[0m
+[0;32mI (53964) Vbusavg: CH[2] Vbus avg: 177[0m
+[0;32mI (53994) Relay_Control: No overvoltage detected on CH1[0m
+Vsense1 of pac1952(current): -18
+Vsense2 of pac1952: 1
+VBus1 of pac1952(Battery): 99
+VBus2 of pac1952(Solar): 177
+[0;32mI (54074) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.73 V, Solar Voltage: 14.22 V, Solar Current: -0.19 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (54074) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (54084) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (54094) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (54114) Relay_Control: Current state: 4[0m
+Toggling detected, hence returns False
+[0;32mI (54114) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (54264) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (54264) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (54264) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (54264) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (54274) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (54274) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (54284) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (54364) Vbusavg: CH[1] Vbus avg: 98[0m
+[0;32mI (54484) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -19
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 98
+VBus2 of pac1952(Solar): 177
+[0;32mI (54784) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (54784) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (54784) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (54784) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (54794) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (54794) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (54804) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (54884) Vbusavg: CH[1] Vbus avg: 97[0m
+[0;32mI (55004) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (55004) Vbusavg: CH[2] Vbus avg: 0[0m
+Vsense1 of pac1952(current): -20
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 97
+VBus2 of pac1952(Solar): 0
+[0;32mI (55124) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.57 V, Solar Voltage: 0.00 V, Solar Current: -0.21 A, Temp 1: 0.00 C[0m
+Temp < 65 
+[0;32mI (55124) Relay_Control: SOLAR_RELAY_PIN OFF ,SUNDOWN FLAG SET[0m
+
+
+[0;32mI (55134) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (55134) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+[0;32mI (55144) Relay_Control: 3rd STAGE : battery_voltage < BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag Not_Set[0m
+[0;32mI (55164) STATE - 5: UPS Mode[0m
+[0;32mI (55304) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (55304) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (55304) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (55304) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (55314) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (55324) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (55324) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (55364) STATE - 5: UPS Mode flag set to 1[0m
+[0;32mI (55364) Relay_Control: 3rd STAGE : Load supported by utility grid & battery charged by utility grid.[0m
+[0;32mI (55364) Relay_Control: Current state: 5[0m
+STATE CHANGE OCCURRED: Previous state = 4, New state = 5
+5 Second timer starts in STATE: 5!! 
+[0;32mI (55374) DATA_MANAGEMENT: STATE CHANGE OCCURRED.
+[0m
+LED changed
+[0;32mI (55404) Vbusavg: CH[1] Vbus avg: 96[0m
+[0;32mI (55524) Vbusavg: CH[2] Vbus avg: 177[0m
+[0;32mI (55624) STATE_CHANGE: State change occurred[0m
+Vsense1 of pac1952(current): -6
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 96
+VBus2 of pac1952(Solar): 177
+[0;32mI (55824) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (55824) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (55824) DATA_MANAGEMENT: power_supply_voltage: 11.68 V[0m
+[0;32mI (55824) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (55834) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (55834) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (55844) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (55924) Vbusavg: CH[1] Vbus avg: 98[0m
+[0;32mI (56014) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (56044) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -4
+Vsense2 of pac1952: 4
+VBus1 of pac1952(Battery): 98
+VBus2 of pac1952(Solar): 177
+[0;32mI (56344) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (56344) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (56344) DATA_MANAGEMENT: power_supply_voltage: 11.71 V[0m
+[0;32mI (56344) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (56354) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (56354) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (56364) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (56384) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.65 V, Solar Voltage: 14.22 V, Solar Current: -0.04 A, Temp 1: 0.00 C[0m
+Temp < 65 
+[0;32mI (56384) Relay_Control: SOLAR_RELAY_PIN ON ,SUNUP FLAG SET[0m
+
+initial_stage :solar_voltage > battery_voltage & initial_stage flag set
+[0;32mI (56394) Relay_Control: Current state: 5[0m
+Current LED: BLUE
+[0;32mI (56404) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+BLUE LED is ON
+[0;32mI (56444) Vbusavg: CH[1] Vbus avg: 97[0m
+
+[0;32mI (56454) IST Time: Current IST Time: 2024/11/15 15:04:31[0m
+[0;32mI (56564) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -6
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 97
+VBus2 of pac1952(Solar): 177
+[0;32mI (56864) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (56864) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (56864) DATA_MANAGEMENT: power_supply_voltage: 11.77 V[0m
+[0;32mI (56864) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (56874) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (56874) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (56884) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (56964) Vbusavg: CH[1] Vbus avg: 96[0m
+[0;32mI (57024) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (57084) Vbusavg: CH[2] Vbus avg: 176[0m
+Vsense1 of pac1952(current): 0
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 96
+VBus2 of pac1952(Solar): 176
+[0;32mI (57384) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (57384) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (57384) DATA_MANAGEMENT: power_supply_voltage: 11.77 V[0m
+[0;32mI (57384) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (57394) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (57394) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (57404) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (57414) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.50 V, Solar Voltage: 14.14 V, Solar Current: 0.00 A, Temp 1: 0.00 C[0m
+BLUE LED is OFF
+Temp < 65 
+initial_stage :solar_voltage > battery_voltage & initial_stage flag set
+[0;32mI (57434) Relay_Control: Current state: 5[0m
+[0;32mI (57434) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (57484) Vbusavg: CH[1] Vbus avg: 97[0m
+[0;32mI (57604) Vbusavg: CH[2] Vbus avg: 177[0m
+[0;32mI (57624) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=59534[0m
+[0;32mI (57634) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=17400[0m
+[0;32mI (57634) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=47590[0m
+[0;32mI (57644) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=33817[0m
+[0;32mI (57644) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=64999[0m
+[0;32mI (57654) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=16679[0m
+[0;32mI (57674) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=50098[0m
+[0;32mI (57674) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=64779[0m
+[0;32mI (57684) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=65119[0m
+[0;32mI (57684) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=52997[0m
+[0;32mI (57694) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=25174[0m
+Vsense1 of pac1952(current): -4
+Vsense2 of pac1952: 4
+VBus1 of pac1952(Battery): 97
+VBus2 of pac1952(Solar): 177
+[0;32mI (57704) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=13335[0m
+[0;32mI (57714) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=19656[0m
+[0;32mI (57724) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=57258[0m
+[0;32mI (57734) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=60290[0m
+[0;32mI (57744) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=3332[0m
+[0;32mI (57754) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=44522[0m
+[0;32mI (57754) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=13149[0m
+[0;32mI (57764) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=13045[0m
+[0;32mI (57764) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=39362[0m
+[0;32mI (57774) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=14803[0m
+[0;32mI (57784) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=61114[0m
+[0;32mI (57794) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=58009[0m
+[0;32mI (57794) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=40057[0m
+[0;32mI (57804) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=12635[0m
+[0;32mI (57814) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=2432[0m
+[0;32mI (57814) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=52966[0m
+[0;32mI (57824) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=21277[0m
+[0;32mI (57834) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=65051[0m
+[0;32mI (57844) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=42482[0m
+[0;32mI (57844) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=33494[0m
+[0;32mI (57854) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=22433[0m
+[0;32mI (57864) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=45259[0m
+[0;32mI (57874) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=17172[0m
+[0;32mI (57884) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=4036[0m
+[0;32mI (57884) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=61971[0m
+[0;32mI (57894) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=31660[0m
+[0;32mI (57894) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=45962[0m
+[0;32mI (57904) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (57904) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (57914) DATA_MANAGEMENT: power_supply_voltage: 12.00 V[0m
+[0;32mI (57914) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (57924) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (57934) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (57934) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (57944) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=37020[0m
+[0;32mI (57954) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=63188[0m
+[0;32mI (57964) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=22550[0m
+[0;32mI (57964) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=7819[0m
+[0;32mI (57984) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=8402[0m
+[0;32mI (57984) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=15523[0m
+[0;32mI (57994) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=37626[0m
+[0;32mI (58004) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=40395[0m
+[0;32mI (58004) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=27277[0m
+[0;32mI (58014) Vbusavg: CH[1] Vbus avg: 97[0m
+[0;32mI (58014) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=17352[0m
+[0;32mI (58024) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=42488[0m
+[0;32mI (58034) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (58034) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=50175[0m
+[0;32mI (58134) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -7
+Vsense2 of pac1952: 5
+VBus1 of pac1952(Battery): 97
+VBus2 of pac1952(Solar): 177
+Current LED: BLUE
+BLUE LED is ON
+[0;32mI (58434) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (58434) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (58434) DATA_MANAGEMENT: power_supply_voltage: 11.81 V[0m
+[0;32mI (58434) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (58444) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.57 V, Solar Voltage: 14.22 V, Solar Current: -0.07 A, Temp 1: 0.00 C[0m
+[0;32mI (58444) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+Temp < 65 
+[0;31mE (58464) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+initial_stage :solar_voltage > battery_voltage & initial_stage flag set
+[0;32mI (58474) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (58474) Relay_Control: Current state: 5[0m
+[0;32mI (58484) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (58554) Vbusavg: CH[1] Vbus avg: 95[0m
+[0;32mI (58674) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -6
+Vsense2 of pac1952: 2
+VBus1 of pac1952(Battery): 95
+VBus2 of pac1952(Solar): 177
+[0;32mI (58974) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (58974) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (58974) DATA_MANAGEMENT: power_supply_voltage: 11.74 V[0m
+[0;32mI (58974) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (58984) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (58994) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (58994) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (59044) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (59074) Vbusavg: CH[1] Vbus avg: 96[0m
+[0;32mI (59194) Vbusavg: CH[2] Vbus avg: 178[0m
+Vsense1 of pac1952(current): -5
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 96
+VBus2 of pac1952(Solar): 178
+BLUE LED is OFF
+[0;32mI (59494) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.50 V, Solar Voltage: 14.30 V, Solar Current: -0.05 A, Temp 1: 0.00 C[0m
+[0;32mI (59494) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+Temp < 65 
+[0;32mI (59494) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+initial_stage :solar_voltage > battery_voltage & initial_stage flag set
+[0;32mI (59504) DATA_MANAGEMENT: power_supply_voltage: 11.68 V[0m
+[0;32mI (59514) Relay_Control: Current state: 5[0m
+[0;32mI (59514) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (59524) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (59524) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (59544) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (59544) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (59624) Vbusavg: CH[1] Vbus avg: 96[0m
+[0;32mI (59744) Vbusavg: CH[2] Vbus avg: 176[0m
+Vsense1 of pac1952(current): -5
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 96
+VBus2 of pac1952(Solar): 176
+[0;32mI (60044) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (60044) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (60044) DATA_MANAGEMENT: power_supply_voltage: 11.77 V[0m
+[0;32mI (60044) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (60054) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (60054) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (60064) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (60074) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (60144) Vbusavg: CH[1] Vbus avg: 96[0m
+[0;32mI (60264) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -4
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 96
+VBus2 of pac1952(Solar): 177
+Current LED: BLUE
+BLUE LED is ON
+[0;32mI (60534) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.50 V, Solar Voltage: 14.22 V, Solar Current: -0.04 A, Temp 1: 0.00 C[0m
+Temp < 65 
+initial_stage :solar_voltage > battery_voltage & initial_stage flag set
+[0;32mI (60544) Relay_Control: Current state: 5[0m
+Maintained the state for 5 seconds. Timer completed.
+[0;32mI (60554) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (60564) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (60564) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (60564) DATA_MANAGEMENT: power_supply_voltage: 11.77 V[0m
+[0;32mI (60574) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (60584) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (60584) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (60594) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (60664) Vbusavg: CH[1] Vbus avg: 96[0m
+[0;32mI (60784) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -5
+Vsense2 of pac1952: 2
+VBus1 of pac1952(Battery): 96
+VBus2 of pac1952(Solar): 177
+[0;32mI (61064) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (61084) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (61084) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (61084) DATA_MANAGEMENT: power_supply_voltage: 11.75 V[0m
+[0;32mI (61084) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (61094) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (61094) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (61104) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (61184) Vbusavg: CH[1] Vbus avg: 95[0m
+[0;32mI (61304) Vbusavg: CH[2] Vbus avg: 176[0m
+Vsense1 of pac1952(current): -3
+Vsense2 of pac1952: 1
+VBus1 of pac1952(Battery): 95
+VBus2 of pac1952(Solar): 176
+BLUE LED is OFF
+
+[0;32mI (61454) IST Time: Current IST Time: 2024/11/15 15:04:36[0m
+[0;32mI (61554) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.42 V, Solar Voltage: 14.14 V, Solar Current: -0.03 A, Temp 1: 0.00 C[0m
+Temp < 65 
+initial_stage :solar_voltage > battery_voltage & initial_stage flag set
+[0;32mI (61564) Relay_Control: initial_stage :Load supported by Battery + solar energy & battery charged by solar energy.[0m
+[0;32mI (61574) STATE - 7: Solar_assisted_battery_charging Mode[0m
+MOSFET ON for activate STATE- 7
+[0;32mI (61604) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (61604) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (61604) DATA_MANAGEMENT: power_supply_voltage: 11.75 V[0m
+[0;32mI (61604) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (61614) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (61614) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (61624) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (61704) Vbusavg: CH[1] Vbus avg: 177[0m
+[0;32mI (61784) STATE - 7: Solar_assisted_battery_charging Mode flag set to 1[0m
+
+2nd STAGE :battery_voltage < BATTERY_MAX_THRESHOLD & batteryHigherThanMaxThreshold flag Not_Set
+[0;32mI (61784) STATE:7: Checking time difference: 0[0m
+[0;32mI (61794) Relay_Control: Current state: 7[0m
+STATE CHANGE OCCURRED: Previous state = 5, New state = 7
+[0;32mI (61804) DATA_MANAGEMENT: STATE CHANGE OCCURRED.
+[0m
+LED changed
+[0;32mI (61824) Vbusavg: CH[2] Vbus avg: 175[0m
+Vsense1 of pac1952(current): 3
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 177
+VBus2 of pac1952(Solar): 175
+[0;32mI (62044) STATE_CHANGE: State change occurred[0m
+[0;32mI (62074) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (62124) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (62124) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (62124) DATA_MANAGEMENT: power_supply_voltage: 11.78 V[0m
+[0;32mI (62124) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (62134) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (62134) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (62144) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (62224) Vbusavg: CH[1] Vbus avg: 176[0m
+[0;32mI (62344) Vbusavg: CH[2] Vbus avg: 176[0m
+Vsense1 of pac1952(current): 4
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 176
+VBus2 of pac1952(Solar): 176
+[0;32mI (62644) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (62644) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (62644) DATA_MANAGEMENT: power_supply_voltage: 11.77 V[0m
+[0;32mI (62644) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (62654) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (62654) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (62664) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (62744) Vbusavg: CH[1] Vbus avg: 177[0m
+[0;32mI (62804) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 13.74 V, Solar Voltage: 14.14 V, Solar Current: 0.04 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+2nd STAGE :battery_voltage > BATTERY_MAX_THRESHOLD 
+Goes to FT mode in second stage 
+[0;32mI (62814) STATE - 4: Force_Trip Mode[0m
+[0;32mI (62864) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): 3
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 177
+VBus2 of pac1952(Solar): 177
+[0;32mI (63014) STATE - 4: Force Trip flag set to 1[0m
+In 2nd stage :5 second timer starts in STATE : 4
+2nd STAGE : batteryHigherThanMaxThreshold set hence goes to 3rd section
+
+[0;32mI (63014) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+LED changed
+[0;32mI (63024) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (63044) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (63054) Relay_Control: Current state: 4[0m
+STATE CHANGE OCCURRED: Previous state = 7, New state = 4
+[0;32mI (63064) DATA_MANAGEMENT: STATE CHANGE OCCURRED.
+[0m
+[0;32mI (63084) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (63164) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (63164) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (63164) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (63164) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (63174) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (63174) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (63184) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (63264) Vbusavg: CH[1] Vbus avg: 99[0m
+[0;32mI (63384) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -20
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 99
+VBus2 of pac1952(Solar): 177
+[0;32mI (63684) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (63684) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (63684) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (63684) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (63694) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (63704) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (63704) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (63784) Vbusavg: CH[1] Vbus avg: 98[0m
+[0;32mI (63904) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -20
+Vsense2 of pac1952: 2
+VBus1 of pac1952(Battery): 98
+VBus2 of pac1952(Solar): 177
+[0;32mI (64044) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=44538[0m
+[0;32mI (64054) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=40408[0m
+[0;32mI (64054) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=7561[0m
+[0;32mI (64064) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.65 V, Solar Voltage: 14.22 V, Solar Current: -0.21 A, Temp 1: 0.00 C[0m
+[0;32mI (64064) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=54102[0m
+Temp < 65 
+
+[0;32mI (64084) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (64084) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+[0;32mI (64084) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=24164[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (64114) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (64104) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=2033[0m
+[0;32mI (64124) Relay_Control: Current state: 4[0m
+[0;32mI (64094) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (64134) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (64134) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=23642[0m
+[0;32mI (64154) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=22652[0m
+[0;32mI (64164) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=20589[0m
+[0;32mI (64174) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=26974[0m
+[0;32mI (64184) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=1426[0m
+[0;32mI (64194) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=57342[0m
+[0;32mI (64194) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=15251[0m
+[0;32mI (64204) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (64204) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (64214) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (64214) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (64224) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;32mI (64224) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=60921[0m
+[0;31mE (64224) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (64234) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=24960[0m
+[0;32mI (64244) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (64254) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=26712[0m
+[0;32mI (64264) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=11753[0m
+[0;32mI (64274) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=57797[0m
+[0;32mI (64284) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=48510[0m
+[0;32mI (64284) DATA_MANAGEMENT: 200ms data published to MQTT, msg_id=46183[0m
+[0;32mI (64294) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=22670[0m
+[0;32mI (64294) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=34945[0m
+[0;32mI (64304) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=40678[0m
+[0;32mI (64314) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=11058[0m
+[0;32mI (64324) Vbusavg: CH[1] Vbus avg: 98[0m
+[0;32mI (64324) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=38408[0m
+[0;32mI (64334) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=39098[0m
+[0;32mI (64344) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=53016[0m
+[0;32mI (64354) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=28987[0m
+[0;32mI (64354) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=62911[0m
+[0;32mI (64364) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=55149[0m
+[0;32mI (64364) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=14658[0m
+[0;32mI (64374) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=7520[0m
+[0;32mI (64384) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=3470[0m
+[0;32mI (64394) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=8681[0m
+[0;32mI (64394) DATA_MANAGEMENT: 4-sec Data published to MQTT, msg_id=10872[0m
+[0;32mI (64404) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=50222[0m
+[0;32mI (64414) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=7005[0m
+[0;32mI (64424) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=17688[0m
+[0;32mI (64424) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=21419[0m
+[0;32mI (64434) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=18901[0m
+[0;32mI (64444) Vbusavg: CH[2] Vbus avg: 178[0m
+[0;32mI (64444) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=14776[0m
+[0;32mI (64454) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=6732[0m
+[0;32mI (64484) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=40236[0m
+[0;32mI (64494) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=4970[0m
+[0;32mI (64504) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=31627[0m
+[0;32mI (64504) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=12093[0m
+[0;32mI (64514) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=54763[0m
+[0;32mI (64524) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=33699[0m
+[0;32mI (64534) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=60313[0m
+[0;32mI (64534) DATA_MANAGEMENT: 1-minute Data published to MQTT, msg_id=23473[0m
+Vsense1 of pac1952(current): -22
+Vsense2 of pac1952: 3
+VBus1 of pac1952(Battery): 98
+VBus2 of pac1952(Solar): 178
+[0;32mI (64744) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (64744) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (64744) DATA_MANAGEMENT: power_supply_voltage: 12.36 V[0m
+[0;32mI (64744) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (64754) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (64764) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (64764) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (64844) Vbusavg: CH[1] Vbus avg: 99[0m
+[0;32mI (64964) Vbusavg: CH[2] Vbus avg: 178[0m
+Vsense1 of pac1952(current): -22
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 99
+VBus2 of pac1952(Solar): 178
+[0;32mI (65144) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.73 V, Solar Voltage: 14.30 V, Solar Current: -0.23 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (65144) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (65154) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (65154) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (65174) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (65184) Relay_Control: Current state: 4[0m
+[0;32mI (65194) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (65264) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (65264) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (65264) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (65264) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (65274) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (65284) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (65284) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (65364) Vbusavg: CH[1] Vbus avg: 99[0m
+[0;32mI (65484) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -18
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 99
+VBus2 of pac1952(Solar): 177
+[0;32mI (65784) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (65784) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (65784) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (65784) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (65794) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (65794) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (65804) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (65884) Vbusavg: CH[1] Vbus avg: 98[0m
+[0;32mI (66004) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -18
+Vsense2 of pac1952: 3
+VBus1 of pac1952(Battery): 98
+VBus2 of pac1952(Solar): 177
+[0;32mI (66164) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (66194) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.65 V, Solar Voltage: 14.22 V, Solar Current: -0.19 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (66194) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (66204) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (66214) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (66224) Relay_Control: Current state: 4[0m
+[0;32mI (66234) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (66304) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (66304) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (66304) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (66304) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (66314) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (66314) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (66324) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (66404) Vbusavg: CH[1] Vbus avg: 98[0m
+
+[0;32mI (66454) IST Time: Current IST Time: 2024/11/15 15:04:41[0m
+[0;32mI (66524) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -18
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 98
+VBus2 of pac1952(Solar): 177
+[0;32mI (66824) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (66824) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (66824) DATA_MANAGEMENT: power_supply_voltage: 12.33 V[0m
+[0;32mI (66824) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (66834) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (66834) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (66844) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (66924) Vbusavg: CH[1] Vbus avg: 98[0m
+[0;32mI (67044) Vbusavg: CH[2] Vbus avg: 178[0m
+Vsense1 of pac1952(current): -19
+Vsense2 of pac1952: 2
+VBus1 of pac1952(Battery): 98
+VBus2 of pac1952(Solar): 178
+[0;32mI (67174) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (67234) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.65 V, Solar Voltage: 14.30 V, Solar Current: -0.20 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (67234) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (67244) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (67254) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (67264) Relay_Control: Current state: 4[0m
+[0;32mI (67274) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (67344) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (67344) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (67344) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (67344) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (67354) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (67354) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (67364) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (67444) Vbusavg: CH[1] Vbus avg: 98[0m
+[0;32mI (67564) Vbusavg: CH[2] Vbus avg: 178[0m
+Vsense1 of pac1952(current): -22
+Vsense2 of pac1952: 5
+VBus1 of pac1952(Battery): 98
+VBus2 of pac1952(Solar): 178
+[0;32mI (67864) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (67864) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (67864) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (67864) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (67874) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (67874) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (67884) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (67964) Vbusavg: CH[1] Vbus avg: 97[0m
+Current LED: GREEN
+GREEN LED is ON
+[0;32mI (68084) Vbusavg: CH[2] Vbus avg: 177[0m
+[0;32mI (68184) Relay_Control: No overvoltage detected on CH1[0m
+Vsense1 of pac1952(current): -19
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 97
+VBus2 of pac1952(Solar): 177
+[0;32mI (68274) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.57 V, Solar Voltage: 14.22 V, Solar Current: -0.20 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (68274) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (68284) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (68294) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (68304) Relay_Control: Current state: 4[0m
+Maintained the state for 5 seconds. Timer completed.
+[0;32mI (68314) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m
+[0;32mI (68384) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (68384) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (68384) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (68384) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (68394) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (68394) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (68404) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (68484) Vbusavg: CH[1] Vbus avg: 98[0m
+[0;32mI (68604) Vbusavg: CH[2] Vbus avg: 177[0m
+Vsense1 of pac1952(current): -21
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 98
+VBus2 of pac1952(Solar): 177
+[0;32mI (68904) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (68904) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (68904) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (68904) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (68914) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (68914) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (68924) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (69004) Vbusavg: CH[1] Vbus avg: 97[0m
+GREEN LED is OFF
+[0;32mI (69124) Vbusavg: CH[2] Vbus avg: 177[0m
+[0;32mI (69194) Relay_Control: No overvoltage detected on CH1[0m
+Vsense1 of pac1952(current): -21
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 97
+VBus2 of pac1952(Solar): 177
+[0;32mI (69324) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 7.57 V, Solar Voltage: 14.22 V, Solar Current: -0.22 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (69324) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (69334) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged(STATE:4)[0m
+battery_voltage > BATTERY_LOW_THRESHOLD && solar_voltage > battery_voltage
+[0;32mI (69344) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (69354) Relay_Control: 3rd STAGE : Load supported by Battery + solar energy  & battery charged by solar energy.[0m
+[0;32mI (69374) STATE - 6: Solar_assisted_FT Mode[0m
+MOSFET ON for activate STATE- 6
+[0;32mI (69424) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (69424) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (69424) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (69424) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (69434) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (69434) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (69444) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (69524) Vbusavg: CH[1] Vbus avg: 176[0m
+[0;32mI (69574) STATE - 6: Solar_assisted_FT Mode flag set to 1[0m
+
+[0;32mI (69574) Relay_Control: 4th STAGE : batteryHigherThanMinThreshold section of code[0m
+4th STAGE :battery_voltage > BATTERY_LOW_THRESHOLD
+[0;32mI (69574) STATE:6: Checking time difference: 0[0m
+[0;32mI (69584) Relay_Control: Current state: 6[0m
+STATE CHANGE OCCURRED: Previous state = 4, New state = 6
+No rapid toggling detected, state change is valid.
+[0;32mI (69594) DATA_MANAGEMENT: STATE CHANGE OCCURRED.
+[0m
+LED changed
+[0;32mI (69644) Vbusavg: CH[2] Vbus avg: 176[0m
+Vsense1 of pac1952(current): -13
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 176
+VBus2 of pac1952(Solar): 176
+[0;32mI (69834) STATE_CHANGE: State change occurred[0m
+[0;32mI (69944) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (69944) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (69944) DATA_MANAGEMENT: power_supply_voltage: 12.25 V[0m
+[0;32mI (69944) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (69954) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (69954) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (69964) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (70044) Vbusavg: CH[1] Vbus avg: 177[0m
+[0;32mI (70164) Vbusavg: CH[2] Vbus avg: 177[0m
+[0;32mI (70204) Relay_Control: No overvoltage detected on CH1[0m
+Vsense1 of pac1952(current): -10
+Vsense2 of pac1952: 0
+VBus1 of pac1952(Battery): 177
+VBus2 of pac1952(Solar): 177
+[0;32mI (70464) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (70464) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (70464) DATA_MANAGEMENT: power_supply_voltage: 12.24 V[0m
+[0;32mI (70464) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (70474) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (70474) ADC_READING: Failed to read Temp3(GPIO 2)[0m
+[0;32mI (70484) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (70564) Vbusavg: CH[1] Vbus avg: 176[0m
+[0;32mI (70604) DATA_MANAGEMENT: Received data from semaphore: Battery Voltage: 13.82 V, Solar Voltage: 14.22 V, Solar Current: -0.11 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+2nd STAGE :battery_voltage > BATTERY_MAX_THRESHOLD 
+Goes to FT mode in second stage 
+[0;32mI (70614) STATE - 4: Force_Trip Mode[0m
+[0;32mI (70684) Vbusavg: CH[2] Vbus avg: 176[0m
+Vsense1 of pac1952(current): -11
+Vsense2 of pac1952: 3
+VBus1 of pac1952(Battery): 176
+VBus2 of pac1952(Solar): 176
+[0;32mI (70814) STATE - 4: Force Trip flag set to 1[0m
+In 2nd stage :5 second timer starts in STATE : 4
+2nd STAGE : batteryHigherThanMaxThreshold set hence goes to 3rd section
+
+[0;32mI (70814) Relay_Control: 4th STAGE : batteryHigherThanMinThreshold section of code[0m
+LED changed
+4th STAGE :battery_voltage > BATTERY_MAX_THRESHOLD & batteryHigherThanMaxThreshold flag set
+[0;32mI (70834) Relay_Control: Current state: 4[0m
+STATE CHANGE OCCURRED: Previous state = 6, New state = 4
+Rapid toggle detected between STATE :4 and STATE :6 within 8 seconds. State change ignored.
+Toggling detected, hence returns False
+[0;32mI (70854) DATA_MANAGEMENT: NO STATE CHANGE.
+[0m

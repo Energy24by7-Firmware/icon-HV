@@ -1,0 +1,21 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM6 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM6 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008be11: xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/queue.c:1713
+[0m
+[0;33m0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m0x4008be0e: xQueueSemaphoreTake at C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/queue.c:1709 (discriminator 1)
+0x400d86d0: esp_coex_common_semphr_take_wrapper at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_coex/esp32/esp_coex_adapter.c:92
+0x4013cf11: ieee80211_ioctl at ??:?
+0x401329c1: esp_wifi_sta_get_ap_info at ??:?
+0x400de6a5: monitor_connections_task at C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/wifi_mqtt/wifi_mqtt.c:299
+0x4008c035: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0m

@@ -1,0 +1,105 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.2.2\My_Projects\iCON_HV_FirmwareV1\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.2.2/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6860 bytes. 0x7a0 bytes (7%) free.
+[2/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+In file included from C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/samples_read/include/samples_read.h:7,
+                 from C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/main/main.c:26:
+C:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/main/main.c:35:
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/ota/include/ota.h:16:13: warning: 'ota_write_data' defined but not used [-Wunused-variable]
+   16 | static char ota_write_data[BUFFSIZE + 1] = { 0 };
+      |             ^~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/ota/include/ota.h:10:20: warning: 'TAG' defined but not used [-Wunused-variable]
+   10 | static const char *TAG = "native_ota_example";
+      |                    ^~~
+[3/8] Linking C static library esp-idf\main\libmain.a
+[4/8] Generating ld/sections.ld
+[5/8] Linking CXX executable app-template.elf
+[6/8] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/build/app-template.bin
+[7/8] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.2.2\My_Projects\iCON_HV_FirmwareV1\build\esp-idf\esptool_py && C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.2.2/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/build/partition_table/partition-table.bin C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/build/app-template.bin"
+app-template.bin binary size 0x109510 bytes. Smallest app partition is 0x140000 bytes. 0x36af0 bytes (17%) free.
+[7/8] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.2.2\components\esptool_py && C:\Espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=C:/Espressif/frameworks/esp-idf-v5.2.2 -D SERIAL_TOOL=C:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe;;C:/Espressif/frameworks/esp-idf-v5.2.2/components/esptool.py --chip esp32 -p COM6 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader/bootloader.bin 0x10000 app-template.bin 0x8000 partition_table/partition-table.bin 0xe000 ota_data_initial.bin
+esptool.py v4.7.0
+Serial port COM6
+Connecting.....
+Chip is ESP32-U4WDH (revision v3.1)
+Features: WiFi, BT, Dual Core, 240MHz, Embedded Flash, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: c4:d8:d5:64:9d:5c
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x00119fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Flash will be erased from 0x0000e000 to 0x0000ffff...
+Compressed 26720 bytes to 16349...
+Writing at 0x00001000... (100 %)
+Wrote 26720 bytes (16349 compressed) at 0x00001000 in 0.7 seconds (effective 285.9 kbit/s)...
+Hash of data verified.
+Compressed 1086736 bytes to 671505...
+Writing at 0x00010000... (2 %)
+Writing at 0x0001e200... (4 %)
+Writing at 0x0002b145... (7 %)
+Writing at 0x00031e63... (9 %)
+Writing at 0x00037040... (12 %)
+Writing at 0x00040c51... (14 %)
+Writing at 0x000467ac... (17 %)
+Writing at 0x0004c98e... (19 %)
+Writing at 0x000526a8... (21 %)
+Writing at 0x00058088... (24 %)
+Writing at 0x0005e15f... (26 %)
+Writing at 0x00064153... (29 %)
+Writing at 0x00069b56... (31 %)
+Writing at 0x0006f87c... (34 %)
+Writing at 0x00075599... (36 %)
+Writing at 0x0007b355... (39 %)
+Writing at 0x00081bbc... (41 %)
+Writing at 0x000876c6... (43 %)
+Writing at 0x0008d31e... (46 %)
+Writing at 0x00093b49... (48 %)
+Writing at 0x00099721... (51 %)
+Writing at 0x0009f287... (53 %)
+Writing at 0x000a4ae2... (56 %)
+Writing at 0x000a9cea... (58 %)
+Writing at 0x000af2e6... (60 %)
+Writing at 0x000b44e7... (63 %)
+Writing at 0x000b9c02... (65 %)
+Writing at 0x000bf326... (68 %)
+Writing at 0x000c4d71... (70 %)
+Writing at 0x000ca67f... (73 %)
+Writing at 0x000d008e... (75 %)
+Writing at 0x000d5e55... (78 %)
+Writing at 0x000db54b... (80 %)
+Writing at 0x000e0b6d... (82 %)
+Writing at 0x000e87df... (85 %)
+Writing at 0x000f380a... (87 %)
+Writing at 0x000f97f7... (90 %)
+Writing at 0x00102642... (92 %)
+Writing at 0x001080cf... (95 %)
+Writing at 0x0010de50... (97 %)
+Writing at 0x00113d55... (100 %)
+Wrote 1086736 bytes (671505 compressed) at 0x00010000 in 17.7 seconds (effective 490.4 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 130...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (130 compressed) at 0x00008000 in 0.1 seconds (effective 248.2 kbit/s)...
+Hash of data verified.
+Compressed 8192 bytes to 31...
+Writing at 0x0000e000... (100 %)
+Wrote 8192 bytes (31 compressed) at 0x0000e000 in 0.1 seconds (effective 501.8 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args -D WORKING_DIRECTORY=C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/build -P C:/Espressif/frameworks/esp-idf-v5.2.2/components/esptool_py/run_serial_tool.cmake"

@@ -1,0 +1,100 @@
+[1/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+In file included from C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/samples_read/include/samples_read.h:7,
+                 from C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/main/main.c:26:
+C:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/main/main.c:35:
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/ota/include/ota.h:16:13: warning: 'ota_write_data' defined but not used [-Wunused-variable]
+   16 | static char ota_write_data[BUFFSIZE + 1] = { 0 };
+      |             ^~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/ota/include/ota.h:10:20: warning: 'TAG' defined but not used [-Wunused-variable]
+   10 | static const char *TAG = "native_ota_example";
+      |                    ^~~
+[2/10] Linking C static library esp-idf\main\libmain.a
+[3/10] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.2.2\My_Projects\iCON_HV_FirmwareV1\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.2.2/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6860 bytes. 0x7a0 bytes (7%) free.
+[4/8] Generating ld/sections.ld
+[5/8] Linking CXX executable app-template.elf
+[6/8] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/build/app-template.bin
+[7/8] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.2.2\My_Projects\iCON_HV_FirmwareV1\build\esp-idf\esptool_py && C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.2.2/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/build/partition_table/partition-table.bin C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/build/app-template.bin"
+app-template.bin binary size 0x107920 bytes. Smallest app partition is 0x180000 bytes. 0x786e0 bytes (31%) free.
+[7/8] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.2.2\components\esptool_py && C:\Espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=C:/Espressif/frameworks/esp-idf-v5.2.2 -D SERIAL_TOOL=C:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe;;C:/Espressif/frameworks/esp-idf-v5.2.2/componentesptool.py --chip esp32 -p COM6 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader/bootloader.bin 0x10000 app-template.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port COM6
+Connecting....
+Chip is ESP32-U4WDH (revision v3.1)
+Features: WiFi, BT, Dual Core, 240MHz, Embedded Flash, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: c4:d8:d5:64:9d:5c
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x00117fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26720 bytes to 16349...
+Writing at 0x00001000... (100 %)
+Wrote 26720 bytes (16349 compressed) at 0x00001000 in 0.8 seconds (effective 285.0 kbit/s)...
+Hash of data verified.
+Compressed 1079584 bytes to 667672...
+Writing at 0x00010000... (2 %)
+Writing at 0x0001e31d... (4 %)
+Writing at 0x0002abcf... (7 %)
+Writing at 0x000316e4... (9 %)
+Writing at 0x00036897... (12 %)
+Writing at 0x00040c5c... (14 %)
+Writing at 0x0004672c... (17 %)
+Writing at 0x0004c9ec... (19 %)
+Writing at 0x000525db... (21 %)
+Writing at 0x00057f30... (24 %)
+Writing at 0x0005e2d6... (26 %)
+Writing at 0x000640e0... (29 %)
+Writing at 0x00069a16... (31 %)
+Writing at 0x0006f722... (34 %)
+Writing at 0x00075628... (36 %)
+Writing at 0x0007b38c... (39 %)
+Writing at 0x00081c98... (41 %)
+Writing at 0x000876ad... (43 %)
+Writing at 0x0008d39e... (46 %)
+Writing at 0x00093a43... (48 %)
+Writing at 0x000995b9... (51 %)
+Writing at 0x0009f15d... (53 %)
+Writing at 0x000a48ca... (56 %)
+Writing at 0x000a9b9c... (58 %)
+Writing at 0x000af047... (60 %)
+Writing at 0x000b42c2... (63 %)
+Writing at 0x000b9a50... (65 %)
+Writing at 0x000bf125... (68 %)
+Writing at 0x000c4e0e... (70 %)
+Writing at 0x000ca536... (73 %)
+Writing at 0x000d0165... (75 %)
+Writing at 0x000d5c86... (78 %)
+Writing at 0x000db5e8... (80 %)
+Writing at 0x000e0e82... (82 %)
+Writing at 0x000eae61... (85 %)
+Writing at 0x000f3b03... (87 %)
+Writing at 0x000f9691... (90 %)
+Writing at 0x00101f76... (92 %)
+Writing at 0x0010795f... (95 %)
+Writing at 0x0010dc50... (97 %)
+Writing at 0x001134d0... (100 %)
+Wrote 1079584 bytes (667672 compressed) at 0x00010000 in 17.7 seconds (effective 488.5 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 134...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (134 compressed) at 0x00008000 in 0.1 seconds (effective 224.1 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+s/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args -D WORKING_DIRECTORY=C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/build -P C:/Espressif/frameworks/esp-idf-v5.2.2/components/esptool_py/run_serial_tool.cmake"

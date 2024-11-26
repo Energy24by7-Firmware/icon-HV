@@ -1,0 +1,1334 @@
+oltage dete[0;32mI (121691) PAC1952_READING: Battery_voltage from PAC 1952 : 8.67 V
+[0m
+[0;32mI (121691) PAC1952_READING: Solar_voltage from PAC 1952 : 14.22 V
+[0m
+[0;32mI (121691) PAC1952_READING: Solar current from PAC 1952 : -0.22 A
+[0m
+[0;32mI (121701) DATA_MANAGEMENT: Battery Voltage pac: 8.67 V[0m
+[0;32mI (121701) DATA_MANAGEMENT: Solar_Voltage pac: 14.22 V[0m
+[0;32mI (121711) DATA_MANAGEMENT: Solar_current pac: -0.22 A[0m
+[0;32mI (121911) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (121911) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (121911) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (121911) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (121921) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (121931) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (121931) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (122071) PAC1952_READING: Battery_voltage from PAC 1952 : 8.59 V
+[0m
+[0;32mI (122071) PAC1952_READING: Solar_voltage from PAC 1952 : 14.14 V
+[0m
+[0;32mI (122071) PAC1952_READING: Solar current from PAC 1952 : -0.20 A
+[0m
+[0;32mI (122081) DATA_MANAGEMENT: Battery Voltage pac: 8.59 V[0m
+[0;32mI (122081) DATA_MANAGEMENT: Solar_Voltage pac: 14.14 V[0m
+[0;32mI (122091) DATA_MANAGEMENT: Solar_current pac: -0.20 A[0m
+[0;32mI (122291) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (122291) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (122291) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (122291) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (122301) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (122311) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (122311) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (122451) PAC1952_READING: Battery_voltage from PAC 1952 : 8.59 V
+[0m
+[0;32mI (122451) PAC1952_READING: Solar_voltage from PAC 1952 : 14.14 V
+[0m
+[0;32mI (122451) PAC1952_READING: Solar current from PAC 1952 : -0.20 A
+[0m
+[0;32mI (122461) DATA_MANAGEMENT: Battery Voltage pac: 8.59 V[0m
+[0;32mI (122461) DATA_MANAGEMENT: Solar_Voltage pac: 14.14 V[0m
+[0;32mI (122471) DATA_MANAGEMENT: Solar_current pac: -0.20 A[0m
+[0;32mI (122541) MAIN: Received data from semaphore: Battery Voltage: 8.59 V, Solar Voltage: 14.14 V, Solar Current: -0.20 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (122541) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (122551) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged.[0m
+[0;32mI (122561) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (122561) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (122571) Relay_Control: Current state: 4[0m
+[0;32mI (122581) TIME: Current time: 2226-01-01 00:02:02[0m
+Toggling detected, hence returns False
+[0;32mI (122591) MAIN: NO STATE CHANGE.
+[0m
+[0;32mI (122671) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (122671) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (122671) DATA_MANAGEMENT: power_supply_voltage: 12.33 V[0m
+[0;32mI (122671) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (122681) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (122691) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (122691) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (122831) PAC1952_READING: Battery_voltage from PAC 1952 : 8.51 V
+[0m
+[0;32mI (122831) PAC1952_READING: Solar_voltage from PAC 1952 : 14.22 V
+[0m
+[0;32mI (122831) PAC1952_READING: Solar current from PAC 1952 : -0.20 A
+[0m
+[0;32mI (122841) DATA_MANAGEMENT: Battery Voltage pac: 8.51 V[0m
+[0;32mI (122841) DATA_MANAGEMENT: Solar_Voltage pac: 14.22 V[0m
+[0;32mI (122851) DATA_MANAGEMENT: Solar_current pac: -0.20 A[0m
+[0;32mI (123051) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (123051) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (123051) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (123051) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (123061) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (123071) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (123071) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (123211) PAC1952_READING: Battery_voltage from PAC 1952 : 8.59 V
+[0m
+[0;32mI (123211) PAC1952_READING: Solar_voltage from PAC 1952 : 14.38 V
+[0m
+[0;32mI (123211) PAC1952_READING: Solar current from PAC 1952 : -0.19 A
+[0m
+[0;32mI (123221) DATA_MANAGEMENT: Battery Voltage pac: 8.59 V[0m
+[0;32mI (123221) DATA_MANAGEMENT: Solar_Voltage pac: 14.38 V[0m
+[0;32mI (123231) DATA_MANAGEMENT: Solar_current pac: -0.19 A[0m
+Current LED: GREEN
+GREEN LED is ON
+[0;32mI (123431) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (123431) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (123431) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (123431) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (123441) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (123451) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (123451) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (123581) TIME: Current time: 2226-01-01 00:02:03[0m
+[0;32mI (123581) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (123591) MAIN: Received data from semaphore: Battery Voltage: 8.59 V, Solar Voltage: 14.38 V, Solar Current: -0.19 A, Temp 1: 0.00 C[0m
+[0;32mI (123591) PAC1952_READING: Battery_voltage from PAC 1952 : 8.51 V
+[0m
+Temp < 65 
+[0;32mI (123601) PAC1952_READING: Solar_voltage from PAC 1952 : 14.22 V
+[0m
+
+[0;32mI (123601) PAC1952_READING: Solar current from PAC 1952 : -0.20 A
+[0m
+[0;32mI (123601) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (123611) DATA_MANAGEMENT: Battery Voltage pac: 8.51 V[0m
+[0;32mI (123621) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged.[0m
+[0;32mI (123631) DATA_MANAGEMENT: Solar_Voltage pac: 14.22 V[0m
+[0;32mI (123631) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (123641) DATA_MANAGEMENT: Solar_current pac: -0.20 A[0m
+[0;32mI (123651) Relay_Control: Current state: 4[0m
+Maintained the state for 5 seconds. Timer completed.
+Toggling detected, hence returns False
+[0;32mI (123671) MAIN: NO STATE CHANGE.
+[0m
+[0;32mI (123861) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (123861) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (123861) DATA_MANAGEMENT: power_supply_voltage: 12.33 V[0m
+[0;32mI (123861) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (123871) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (123881) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (123881) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (124021) PAC1952_READING: Battery_voltage from PAC 1952 : 8.51 V
+[0m
+[0;32mI (124021) PAC1952_READING: Solar_voltage from PAC 1952 : 14.22 V
+[0m
+[0;32mI (124021) PAC1952_READING: Solar current from PAC 1952 : -0.21 A
+[0m
+[0;32mI (124031) DATA_MANAGEMENT: Battery Voltage pac: 8.51 V[0m
+[0;32mI (124031) DATA_MANAGEMENT: Solar_Voltage pac: 14.22 V[0m
+[0;32mI (124041) DATA_MANAGEMENT: Solar_current pac: -0.21 A[0m
+[0;32mI (124241) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (124241) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (124241) DATA_MANAGEMENT: power_supply_voltage: 12.33 V[0m
+[0;32mI (124241) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (124251) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (124261) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (124261) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+GREEN LED is OFF
+[0;32mI (124401) PAC1952_READING: Battery_voltage from PAC 1952 : 8.51 V
+[0m
+[0;32mI (124401) PAC1952_READING: Solar_voltage from PAC 1952 : 14.14 V
+[0m
+[0;32mI (124401) PAC1952_READING: Solar current from PAC 1952 : -0.20 A
+[0m
+[0;32mI (124411) DATA_MANAGEMENT: Battery Voltage pac: 8.51 V[0m
+[0;32mI (124411) DATA_MANAGEMENT: Solar_Voltage pac: 14.14 V[0m
+[0;32mI (124421) DATA_MANAGEMENT: Solar_current pac: -0.20 A[0m
+[0;32mI (124481) WIFI_MQTT: MQTT disconnected, trying to reconnect...[0m
+[0;32mI (124481) mqtt_client: Client force reconnect requested[0m
+[0;32mI (124581) TIME: Current time: 2226-01-01 00:02:04[0m
+[0;32mI (124591) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (124621) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (124621) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (124621) DATA_MANAGEMENT: power_supply_voltage: 12.34 V[0m
+[0;32mI (124621) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (124631) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (124641) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (124641) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (124671) MAIN: Received data from semaphore: Battery Voltage: 8.51 V, Solar Voltage: 14.14 V, Solar Current: -0.20 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+[0;32mI (124671) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (124681) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged.[0m
+[0;32mI (124691) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (124701) Relay_Control: 3rd STAGE : Load supported by Battery + solar energy  & battery charged by solar energy.[0m
+[0;32mI (124711) STATE - 6: Solar_assisted_FT Mode[0m
+MOSFET ON for activate STATE- 6
+[0;32mI (124781) PAC1952_READING: Battery_voltage from PAC 1952 : 8.43 V
+[0m
+[0;32mI (124781) PAC1952_READING: Solar_voltage from PAC 1952 : 14.22 V
+[0m
+[0;32mI (124781) PAC1952_READING: Solar current from PAC 1952 : -0.19 A
+[0m
+[0;32mI (124791) DATA_MANAGEMENT: Battery Voltage pac: 8.43 V[0m
+[0;32mI (124791) DATA_MANAGEMENT: Solar_Voltage pac: 14.22 V[0m
+[0;32mI (124801) DATA_MANAGEMENT: Solar_current pac: -0.19 A[0m
+[0;32mI (124921) STATE - 6: Solar_assisted_FT Mode flag set to 1[0m
+
+[0;32mI (124921) Relay_Control: 4th STAGE : batteryHigherThanMinThreshold section of code[0m
+4th STAGE :battery_voltage > BATTERY_LOW_THRESHOLD
+[0;32mI (124921) STATE:6: Checking time difference: 0[0m
+[0;32mI (124931) Relay_Control: Current state: 6[0m
+STATE CHANGE OCCURRED: Previous state = 4, New state = 6
+Rapid toggle detected between STATE :4 and STATE :6 within 8 seconds. State change ignored.
+Toggling detected, hence returns False
+[0;32mI (124951) MAIN: NO STATE CHANGE.
+[0m
+[0;32mI (125001) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+LED changed
+[0;32mI (125001) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (125001) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (125001) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (125011) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (125021) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (125021) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (125161) PAC1952_READING: Battery_voltage from PAC 1952 : 13.66 V
+[0m
+[0;32mI (125161) PAC1952_READING: Solar_voltage from PAC 1952 : 13.98 V
+[0m
+[0;32mI (125161) PAC1952_READING: Solar current from PAC 1952 : -0.07 A
+[0m
+[0;32mI (125171) DATA_MANAGEMENT: Battery Voltage pac: 13.66 V[0m
+[0;32mI (125171) DATA_MANAGEMENT: Solar_Voltage pac: 13.98 V[0m
+[0;32mI (125181) DATA_MANAGEMENT: Solar_current pac: -0.07 A[0m
+[0;32mI (125381) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (125381) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (125381) DATA_MANAGEMENT: power_supply_voltage: 12.37 V[0m
+[0;32mI (125381) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (125391) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (125401) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (125401) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (125541) PAC1952_READING: Battery_voltage from PAC 1952 : 13.59 V
+[0m
+[0;32mI (125541) PAC1952_READING: Solar_voltage from PAC 1952 : 14.06 V
+[0m
+[0;32mI (125541) PAC1952_READING: Solar current from PAC 1952 : -0.02 A
+[0m
+[0;32mI (125551) DATA_MANAGEMENT: Battery Voltage pac: 13.59 V[0m
+[0;32mI (125551) DATA_MANAGEMENT: Solar_Voltage pac: 14.06 V[0m
+[0;32mI (125561) DATA_MANAGEMENT: Solar_current pac: -0.02 A[0m
+[0;32mI (125581) TIME: Current time: 2226-01-01 00:02:05[0m
+[0;32mI (125601) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (125761) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (125761) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (125761) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (125761) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (125771) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (125781) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (125781) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (125921) PAC1952_READING: Battery_voltage from PAC 1952 : 13.66 V
+[0m
+[0;32mI (125921) PAC1952_READING: Solar_voltage from PAC 1952 : 14.06 V
+[0m
+[0;32mI (125921) PAC1952_READING: Solar current from PAC 1952 : -0.01 A
+[0m
+[0;32mI (125931) DATA_MANAGEMENT: Battery Voltage pac: 13.66 V[0m
+[0;32mI (125931) DATA_MANAGEMENT: Solar_Voltage pac: 14.06 V[0m
+[0;32mI (125941) DATA_MANAGEMENT: Solar_current pac: -0.01 A[0m
+[0;32mI (125951) MAIN: Received data from semaphore: Battery Voltage: 13.66 V, Solar Voltage: 14.06 V, Solar Current: -0.01 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+2nd STAGE :battery_voltage > BATTERY_MAX_THRESHOLD 
+2nd STAGE : batteryHigherThanMaxThreshold set hence goes to 3rd section
+[0;32mI (125971) Relay_Control: 4th stage : FT_mode_goes = true[0m
+
+[0;32mI (125981) Relay_Control: 4th STAGE : batteryHigherThanMinThreshold section of code[0m
+4th STAGE :battery_voltage > BATTERY_MAX_THRESHOLD & batteryHigherThanMaxThreshold flag set
+[0;32mI (125991) Relay_Control: 4th stage : FT_mode_goes = true[0m
+[0;32mI (126001) Relay_Control: Current state: 6[0m
+Toggling detected, hence returns False
+[0;32mI (126011) MAIN: NO STATE CHANGE.
+[0m
+[0;32mI (126141) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (126141) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (126141) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (126141) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (126151) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (126161) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (126161) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (126301) PAC1952_READING: Battery_voltage from PAC 1952 : 13.51 V
+[0m
+[0;32mI (126301) PAC1952_READING: Solar_voltage from PAC 1952 : 14.06 V
+[0m
+[0;32mI (126301) PAC1952_READING: Solar current from PAC 1952 : -0.06 A
+[0m
+[0;32mI (126311) DATA_MANAGEMENT: Battery Voltage pac: 13.51 V[0m
+[0;32mI (126311) DATA_MANAGEMENT: Solar_Voltage pac: 14.06 V[0m
+[0;32mI (126321) DATA_MANAGEMENT: Solar_current pac: -0.06 A[0m
+[0;32mI (126521) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (126521) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (126521) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (126521) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (126531) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (126541) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (126541) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (126581) TIME: Current time: 2226-01-01 00:02:06[0m
+[0;32mI (126611) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (126681) PAC1952_READING: Battery_voltage from PAC 1952 : 13.66 V
+[0m
+[0;32mI (126681) PAC1952_READING: Solar_voltage from PAC 1952 : 0.00 V
+[0m
+[0;32mI (126681) PAC1952_READING: Solar current from PAC 1952 : -0.05 A
+[0m
+[0;32mI (126691) DATA_MANAGEMENT: Battery Voltage pac: 13.66 V[0m
+[0;32mI (126691) DATA_MANAGEMENT: Solar_Voltage pac: 0.00 V[0m
+[0;32mI (126701) DATA_MANAGEMENT: Solar_current pac: -0.05 A[0m
+[0;32mI (126901) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (126901) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (126901) DATA_MANAGEMENT: power_supply_voltage: 12.33 V[0m
+[0;32mI (126901) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (126911) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (126921) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (126921) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (127011) MAIN: Received data from semaphore: Battery Voltage: 13.66 V, Solar Voltage: 0.00 V, Solar Current: -0.05 A, Temp 1: 0.00 C[0m
+Temp < 65 
+[0;32mI (127011) Relay_Control: SOLAR_RELAY_PIN OFF ,SUNDOWN FLAG SET[0m
+
+
+[0;32mI (127021) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+Goes to FT mode
+[0;32mI (127031) STATE - 4: Force_Trip Mode[0m
+[0;32mI (127061) PAC1952_READING: Battery_voltage from PAC 1952 : 13.59 V
+[0m
+[0;32mI (127061) PAC1952_READING: Solar_voltage from PAC 1952 : 14.06 V
+[0m
+[0;32mI (127061) PAC1952_READING: Solar current from PAC 1952 : -0.03 A
+[0m
+[0;32mI (127071) DATA_MANAGEMENT: Battery Voltage pac: 13.59 V[0m
+[0;32mI (127071) DATA_MANAGEMENT: Solar_Voltage pac: 14.06 V[0m
+[0;32mI (127081) DATA_MANAGEMENT: Solar_current pac: -0.03 A[0m
+[0;32mI (127231) STATE - 4: Force Trip flag set to 1[0m
+5 second timer starts in STATE : 4
+[0;32mI (127231) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged.[0m
+[0;32mI (127231) Relay_Control: 3rd STAGE : battery_voltage < BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag Not_Set[0m
+[0;32mI (127241) STATE - 5: UPS Mode[0m
+[0;32mI (127291) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (127291) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (127291) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;32mI (127291) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (127301) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (127311) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (127311) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (127451) STATE - 5: UPS Mode flag set to 1[0m
+[0;32mI (127451) PAC1952_READING: Battery_voltage from PAC 1952 : 8.90 V
+[0m
+[0;32mI (127451) Relay_Control: 3rd STAGE : Load supported by utility grid & battery charged by utility grid.[0m
+[0;32mI (127451) PAC1952_READING: Solar_voltage from PAC 1952 : 14.22 V
+[0m
+[0;32mI (127461) Relay_Control: Current state: 5[0m
+[0;32mI (127461) PAC1952_READING: Solar current from PAC 1952 : -0.21 A
+[0m
+STATE CHANGE OCCURRED: Previous state = 6, New state = 5
+[0;32mI (127481) DATA_MANAGEMENT: Battery Voltage pac: 8.90 V[0m
+5 Second timer starts in STATE: 5!! 
+[0;32mI (127491) DATA_MANAGEMENT: Solar_Voltage pac: 14.22 V[0m
+[0;32mI (127491) MAIN: STATE CHANGE OCCURRED.
+[0m
+[0;32mI (127501) DATA_MANAGEMENT: Solar_current pac: -0.21 A[0m
+LED changed
+[0;32mI (127581) TIME: Current time: 2226-01-01 00:02:07[0m
+[0;32mI (127621) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (127711) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (127711) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (127711) DATA_MANAGEMENT: power_supply_voltage: 11.75 V[0m
+[0;32mI (127711) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (127721) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (127731) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (127731) STATE_CHANGE: State change occurred[0m
+[0;32mI (127731) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (127871) PAC1952_READING: Battery_voltage from PAC 1952 : 8.82 V
+[0m
+[0;32mI (127871) PAC1952_READING: Solar_voltage from PAC 1952 : 14.14 V
+[0m
+[0;32mI (127871) PAC1952_READING: Solar current from PAC 1952 : -0.04 A
+[0m
+[0;32mI (127881) DATA_MANAGEMENT: Battery Voltage pac: 8.82 V[0m
+[0;32mI (127881) DATA_MANAGEMENT: Solar_Voltage pac: 14.14 V[0m
+[0;32mI (127891) DATA_MANAGEMENT: Solar_current pac: -0.04 A[0m
+[0;32mI (128091) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (128091) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (128091) DATA_MANAGEMENT: power_supply_voltage: 11.71 V[0m
+[0;32mI (128091) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (128101) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (128111) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (128111) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (128251) PAC1952_READING: Battery_voltage from PAC 1952 : 8.67 V
+[0m
+[0;32mI (128251) PAC1952_READING: Solar_voltage from PAC 1952 : 14.14 V
+[0m
+[0;32mI (128251) PAC1952_READING: Solar current from PAC 1952 : -0.04 A
+[0m
+[0;32mI (128261) DATA_MANAGEMENT: Battery Voltage pac: 8.67 V[0m
+[0;32mI (128261) DATA_MANAGEMENT: Solar_Voltage pac: 14.14 V[0m
+[0;32mI (128271) DATA_MANAGEMENT: Solar_current pac: -0.04 A[0m
+[0;32mI (128471) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (128471) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (128471) DATA_MANAGEMENT: power_supply_voltage: 11.75 V[0m
+[0;32mI (128471) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (128481) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (128491) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (128491) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (128501) MAIN: Received data from semaphore: Battery Voltage: 8.67 V, Solar Voltage: 14.14 V, Solar Current: -0.04 A, Temp 1: 0.00 C[0m
+Current LED: BLUE
+Temp < 65 
+BLUE LED is ON
+[0;32mI (128511) Relay_Control: SOLAR_RELAY_PIN ON ,SUNUP FLAG SET[0m
+
+initial_stage :solar_voltage > battery_voltage & initial_stage flag set
+[0;32mI (128531) Relay_Control: Current state: 5[0m
+[0;32mI (128531) MAIN: NO STATE CHANGE.
+[0m
+[0;32mI (128581) TIME: Current time: 2226-01-01 00:02:08[0m
+[0;32mI (128631) PAC1952_READING: Battery_voltage from PAC 1952 : 8.59 V
+[0m
+[0;32mI (128631) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (128631) PAC1952_READING: Solar_voltage from PAC 1952 : 14.30 V
+[0m
+[0;32mI (128641) PAC1952_READING: Solar current from PAC 1952 : -0.09 A
+[0m
+[0;32mI (128641) DATA_MANAGEMENT: Battery Voltage pac: 8.59 V[0m
+[0;32mI (128651) DATA_MANAGEMENT: Solar_Voltage pac: 14.30 V[0m
+[0;32mI (128651) DATA_MANAGEMENT: Solar_current pac: -0.09 A[0m
+[0;32mI (128861) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (128861) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (128861) DATA_MANAGEMENT: power_supply_voltage: 11.75 V[0m
+[0;32mI (128861) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (128871) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (128881) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (128881) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (129021) PAC1952_READING: Battery_voltage from PAC 1952 : 8.67 V
+[0m
+[0;32mI (129021) PAC1952_READING: Solar_voltage from PAC 1952 : 14.30 V
+[0m
+[0;32mI (129021) PAC1952_READING: Solar current from PAC 1952 : -0.03 A
+[0m
+[0;32mI (129031) DATA_MANAGEMENT: Battery Voltage pac: 8.67 V[0m
+[0;32mI (129031) DATA_MANAGEMENT: Solar_Voltage pac: 14.30 V[0m
+[0;32mI (129041) DATA_MANAGEMENT: Solar_current pac: -0.03 A[0m
+[0;32mI (129241) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (129241) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (129241) DATA_MANAGEMENT: power_supply_voltage: 11.80 V[0m
+[0;32mI (129241) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (129251) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (129261) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (129261) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (129401) PAC1952_READING: Battery_voltage from PAC 1952 : 8.59 V
+[0m
+[0;32mI (129401) PAC1952_READING: Solar_voltage from PAC 1952 : 14.14 V
+[0m
+[0;32mI (129401) PAC1952_READING: Solar current from PAC 1952 : -0.06 A
+[0m
+[0;32mI (129411) DATA_MANAGEMENT: Battery Voltage pac: 8.59 V[0m
+[0;32mI (129411) DATA_MANAGEMENT: Solar_Voltage pac: 14.14 V[0m
+[0;32mI (129421) DATA_MANAGEMENT: Solar_current pac: -0.06 A[0m
+[0;32mI (129481) WIFI_MQTT: MQTT disconnected, trying to reconnect...[0m
+[0;32mI (129481) mqtt_client: Client force reconnect requested[0m
+[0;31mE (129501) esp-tls: [sock=54] select() timeout[0m
+[0;31mE (129501) transport_base: Failed to open a new connection: 32774[0m
+[0;31mE (129501) mqtt_client: Error transport connect[0m
+[0;32mI (129501) WIFI_MQTT: Disconnected from MQTT broker[0m
+BLUE LED is OFF
+[0;32mI (129541) MAIN: Received data from semaphore: Battery Voltage: 8.59 V, Solar Voltage: 14.14 V, Solar Current: -0.06 A, Temp 1: 0.00 C[0m
+Temp < 65 
+initial_stage :solar_voltage > battery_voltage & initial_stage flag set
+[0;32mI (129551) Relay_Control: Current state: 5[0m
+[0;32mI (129551) MAIN: NO STATE CHANGE.
+[0m
+[0;32mI (129581) TIME: Current time: 2226-01-01 00:02:09[0m
+[0;32mI (129621) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (129621) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (129621) DATA_MANAGEMENT: power_supply_voltage: 11.72 V[0m
+[0;32mI (129621) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (129631) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (129641) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (129641) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (129641) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;31mE (129741) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (129741) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 100 with timestamp 197001010002[0m
+[0;31mE (129751) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (129751) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 101 with timestamp 197001010002[0m
+[0;31mE (129771) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (129771) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 102 with timestamp 197001010002[0m
+[0;32mI (129781) PAC1952_READING: Battery_voltage from PAC 1952 : 8.74 V
+[0m
+[0;31mE (129791) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (129791) PAC1952_READING: Solar_voltage from PAC 1952 : 14.14 V
+[0m
+[0;32mI (129801) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 103 with timestamp 197001010002[0m
+[0;32mI (129801) PAC1952_READING: Solar current from PAC 1952 : -0.06 A
+[0m
+[0;31mE (129821) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (129821) DATA_MANAGEMENT: Battery Voltage pac: 8.74 V[0m
+[0;32mI (129831) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 104 with timestamp 197001010002[0m
+[0;32mI (129841) DATA_MANAGEMENT: Solar_Voltage pac: 14.14 V[0m
+[0;31mE (129851) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (129851) DATA_MANAGEMENT: Solar_current pac: -0.06 A[0m
+[0;32mI (129861) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 105 with timestamp 197001010002[0m
+[0;31mE (129881) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (129891) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 106 with timestamp 197001010002[0m
+[0;31mE (129901) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (129901) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 107 with timestamp 197001010002[0m
+[0;31mE (129921) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (129921) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 108 with timestamp 197001010002[0m
+[0;31mE (129931) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (129941) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 109 with timestamp 197001010002[0m
+[0;31mE (129951) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (129961) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 110 with timestamp 197001010002[0m
+[0;31mE (129971) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (129981) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 111 with timestamp 197001010002[0m
+[0;31mE (129991) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (130001) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 112 with timestamp 197001010002[0m
+[0;31mE (130011) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (130011) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 113 with timestamp 197001010002[0m
+[0;31mE (130031) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (130031) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 114 with timestamp 197001010002[0m
+[0;31mE (130041) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (130051) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 115 with timestamp 197001010002[0m
+[0;31mE (130061) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (130071) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (130071) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 116 with timestamp 197001010002[0m
+[0;32mI (130081) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;31mE (130091) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (130091) DATA_MANAGEMENT: power_supply_voltage: 11.77 V[0m
+[0;32mI (130101) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 117 with timestamp 197001010002[0m
+[0;32mI (130111) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;31mE (130121) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (130121) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;32mI (130131) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 118 with timestamp 197001010002[0m
+[0;31mE (130141) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;31mE (130151) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (130151) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (130161) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 119 with timestamp 197001010002[0m
+[0;31mE (130181) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (130191) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 120 with timestamp 197001010002[0m
+[0;31mE (130201) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (130201) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 121 with timestamp 197001010002[0m
+[0;31mE (130211) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (130221) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 122 with timestamp 197001010002[0m
+[0;31mE (130231) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (130241) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 123 with timestamp 197001010002[0m
+[0;31mE (130251) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (130261) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 124 with timestamp 197001010002[0m
+[0;31mE (130271) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (130271) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 125 with timestamp 197001010002[0m
+[0;31mE (130291) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (130291) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 126 with timestamp 197001010002[0m
+[0;32mI (130301) PAC1952_READING: Battery_voltage from PAC 1952 : 8.67 V
+[0m
+[0;31mE (130301) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (130311) PAC1952_READING: Solar_voltage from PAC 1952 : 14.30 V
+[0m
+[0;32mI (130321) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 127 with timestamp 197001010002[0m
+[0;32mI (130321) PAC1952_READING: Solar current from PAC 1952 : -0.06 A
+[0m
+[0;31mE (130341) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (130341) DATA_MANAGEMENT: Battery Voltage pac: 8.67 V[0m
+[0;32mI (130351) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 128 with timestamp 197001010002[0m
+[0;32mI (130351) DATA_MANAGEMENT: Solar_Voltage pac: 14.30 V[0m
+[0;31mE (130371) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (130371) DATA_MANAGEMENT: Solar_current pac: -0.06 A[0m
+[0;32mI (130381) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 129 with timestamp 197001010002[0m
+[0;31mE (130391) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (130401) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 130 with timestamp 197001010002[0m
+[0;31mE (130411) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (130421) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 131 with timestamp 197001010002[0m
+[0;31mE (130431) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (130441) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 132 with timestamp 197001010002[0m
+[0;31mE (130451) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (130451) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 133 with timestamp 197001010002[0m
+[0;31mE (130471) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (130471) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 134 with timestamp 197001010002[0m
+[0;31mE (130481) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (130491) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 135 with timestamp 197001010002[0m
+[0;31mE (130501) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+Current LED: BLUE
+[0;32mI (130511) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 136 with timestamp 197001010002[0m
+BLUE LED is ON
+[0;31mE (130521) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (130531) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 137 with timestamp 197001010002[0m
+[0;31mE (130541) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (130551) MAIN: Received data from semaphore: Battery Voltage: 8.67 V, Solar Voltage: 14.30 V, Solar Current: -0.06 A, Temp 1: 0.00 C[0m
+[0;32mI (130561) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 138 with timestamp 197001010002[0m
+Temp < 65 
+initial_stage :solar_voltage > battery_voltage & initial_stage flag set
+[0;32mI (130581) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (130581) Relay_Control: Current state: 5[0m
+[0;32mI (130581) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (130591) MAIN: NO STATE CHANGE.
+[0m
+[0;32mI (130591) DATA_MANAGEMENT: power_supply_voltage: 11.77 V[0m
+[0;31mE (130571) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (130601) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (130581) TIME: Current time: 2226-01-01 00:02:10[0m
+[0;32mI (130621) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;32mI (130611) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 139 with timestamp 197001010002[0m
+[0;31mE (130631) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;31mE (130641) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (130651) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (130651) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 140 with timestamp 197001010002[0m
+[0;32mI (130661) Relay_Control: No overvoltage detected on CH1[0m
+[0;31mE (130671) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (130691) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 141 with timestamp 197001010002[0m
+[0;31mE (130701) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (130701) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 142 with timestamp 197001010002[0m
+[0;31mE (130711) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (130721) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 143 with timestamp 197001010002[0m
+[0;31mE (130731) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (130741) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 144 with timestamp 197001010002[0m
+[0;31mE (130751) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (130761) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 145 with timestamp 197001010002[0m
+[0;31mE (130771) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (130781) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 146 with timestamp 197001010002[0m
+[0;32mI (130791) PAC1952_READING: Battery_voltage from PAC 1952 : 8.51 V
+[0m
+[0;31mE (130791) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (130791) PAC1952_READING: Solar_voltage from PAC 1952 : 14.14 V
+[0m
+[0;32mI (130801) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 147 with timestamp 197001010002[0m
+[0;32mI (130811) PAC1952_READING: Solar current from PAC 1952 : -0.05 A
+[0m
+[0;31mE (130821) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (130821) DATA_MANAGEMENT: Battery Voltage pac: 8.51 V[0m
+[0;32mI (130831) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 148 with timestamp 197001010002[0m
+[0;32mI (130841) DATA_MANAGEMENT: Solar_Voltage pac: 14.14 V[0m
+[0;31mE (130851) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (130851) DATA_MANAGEMENT: Solar_current pac: -0.05 A[0m
+[0;32mI (130861) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 149 with timestamp 197001010002[0m
+[0;32mI (131071) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (131071) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (131071) DATA_MANAGEMENT: power_supply_voltage: 11.77 V[0m
+[0;32mI (131071) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (131081) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (131091) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (131091) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (131231) PAC1952_READING: Battery_voltage from PAC 1952 : 8.43 V
+[0m
+[0;32mI (131231) PAC1952_READING: Solar_voltage from PAC 1952 : 14.22 V
+[0m
+[0;32mI (131231) PAC1952_READING: Solar current from PAC 1952 : -0.04 A
+[0m
+[0;32mI (131241) DATA_MANAGEMENT: Battery Voltage pac: 8.43 V[0m
+[0;32mI (131241) DATA_MANAGEMENT: Solar_Voltage pac: 14.22 V[0m
+[0;32mI (131251) DATA_MANAGEMENT: Solar_current pac: -0.04 A[0m
+[0;32mI (131451) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (131451) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (131451) DATA_MANAGEMENT: power_supply_voltage: 11.77 V[0m
+[0;32mI (131451) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (131461) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (131471) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (131471) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+BLUE LED is OFF
+[0;32mI (131601) MAIN: Received data from semaphore: Battery Voltage: 8.43 V, Solar Voltage: 14.22 V, Solar Current: -0.04 A, Temp 1: 0.00 C[0m
+Temp < 65 
+initial_stage :solar_voltage > battery_voltage & initial_stage flag set
+[0;32mI (131611) Relay_Control: Current state: 5[0m
+[0;32mI (131611) PAC1952_READING: Battery_voltage from PAC 1952 : 8.59 V
+[0m
+[0;32mI (131611) MAIN: NO STATE CHANGE.
+[0m
+[0;32mI (131621) PAC1952_READING: Solar_voltage from PAC 1952 : 14.22 V
+[0m
+[0;32mI (131621) TIME: Current time: 2226-01-01 00:02:11[0m
+[0;32mI (131631) PAC1952_READING: Solar current from PAC 1952 : -0.03 A
+[0m
+[0;32mI (131641) DATA_MANAGEMENT: Battery Voltage pac: 8.59 V[0m
+[0;32mI (131651) DATA_MANAGEMENT: Solar_Voltage pac: 14.22 V[0m
+[0;32mI (131651) DATA_MANAGEMENT: Solar_current pac: -0.03 A[0m
+[0;32mI (131691) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (131861) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (131861) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (131861) DATA_MANAGEMENT: power_supply_voltage: 11.75 V[0m
+[0;32mI (131861) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (131871) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (131881) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (131881) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (132021) PAC1952_READING: Battery_voltage from PAC 1952 : 8.51 V
+[0m
+[0;32mI (132021) PAC1952_READING: Solar_voltage from PAC 1952 : 14.22 V
+[0m
+[0;32mI (132021) PAC1952_READING: Solar current from PAC 1952 : -0.05 A
+[0m
+[0;32mI (132031) DATA_MANAGEMENT: Battery Voltage pac: 8.51 V[0m
+[0;32mI (132031) DATA_MANAGEMENT: Solar_Voltage pac: 14.22 V[0m
+[0;32mI (132041) DATA_MANAGEMENT: Solar_current pac: -0.05 A[0m
+[0;32mI (132241) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (132241) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (132241) DATA_MANAGEMENT: power_supply_voltage: 11.75 V[0m
+[0;32mI (132241) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (132251) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (132261) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (132261) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (132401) PAC1952_READING: Battery_voltage from PAC 1952 : 8.51 V
+[0m
+[0;32mI (132401) PAC1952_READING: Solar_voltage from PAC 1952 : 14.14 V
+[0m
+[0;32mI (132401) PAC1952_READING: Solar current from PAC 1952 : -0.04 A
+[0m
+[0;32mI (132411) DATA_MANAGEMENT: Battery Voltage pac: 8.51 V[0m
+[0;32mI (132411) DATA_MANAGEMENT: Solar_Voltage pac: 14.14 V[0m
+[0;32mI (132421) DATA_MANAGEMENT: Solar_current pac: -0.04 A[0m
+Current LED: BLUE
+BLUE LED is ON
+[0;32mI (132621) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (132621) MAIN: Received data from semaphore: Battery Voltage: 8.51 V, Solar Voltage: 14.14 V, Solar Current: -0.04 A, Temp 1: 0.00 C[0m
+[0;32mI (132621) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+Temp < 65 
+[0;32mI (132631) DATA_MANAGEMENT: power_supply_voltage: 11.74 V[0m
+initial_stage :solar_voltage > battery_voltage & initial_stage flag set
+[0;32mI (132641) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (132641) Relay_Control: Current state: 5[0m
+[0;32mI (132651) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+Maintained the state for 5 seconds. Timer completed.
+[0;31mE (132661) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (132661) MAIN: NO STATE CHANGE.
+[0m
+[0;32mI (132671) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (132631) TIME: Current time: 2226-01-01 00:02:12[0m
+[0;32mI (132701) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (132811) PAC1952_READING: Battery_voltage from PAC 1952 : 0.00 V
+[0m
+[0;32mI (132811) PAC1952_READING: Solar_voltage from PAC 1952 : 14.22 V
+[0m
+[0;32mI (132811) PAC1952_READING: Solar current from PAC 1952 : -0.04 A
+[0m
+[0;32mI (132821) DATA_MANAGEMENT: Battery Voltage pac: 0.00 V[0m
+[0;32mI (132821) DATA_MANAGEMENT: Solar_Voltage pac: 14.22 V[0m
+[0;32mI (132831) DATA_MANAGEMENT: Solar_current pac: -0.04 A[0m
+[0;32mI (133031) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (133031) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (133031) DATA_MANAGEMENT: power_supply_voltage: 11.75 V[0m
+[0;32mI (133031) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (133041) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (133051) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (133051) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (133191) PAC1952_READING: Battery_voltage from PAC 1952 : 8.43 V
+[0m
+[0;32mI (133191) PAC1952_READING: Solar_voltage from PAC 1952 : 14.14 V
+[0m
+[0;32mI (133191) PAC1952_READING: Solar current from PAC 1952 : -0.04 A
+[0m
+[0;32mI (133201) DATA_MANAGEMENT: Battery Voltage pac: 8.43 V[0m
+[0;32mI (133201) DATA_MANAGEMENT: Solar_Voltage pac: 14.14 V[0m
+[0;32mI (133211) DATA_MANAGEMENT: Solar_current pac: -0.04 A[0m
+[0;32mI (133411) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (133411) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (133411) DATA_MANAGEMENT: power_supply_voltage: 11.75 V[0m
+[0;32mI (133411) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (133421) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (133431) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (133431) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+BLUE LED is OFF
+[0;32mI (133571) PAC1952_READING: Battery_voltage from PAC 1952 : 8.43 V
+[0m
+[0;32mI (133571) PAC1952_READING: Solar_voltage from PAC 1952 : 14.22 V
+[0m
+[0;32mI (133571) PAC1952_READING: Solar current from PAC 1952 : -0.05 A
+[0m
+[0;32mI (133581) DATA_MANAGEMENT: Battery Voltage pac: 8.43 V[0m
+[0;32mI (133581) DATA_MANAGEMENT: Solar_Voltage pac: 14.22 V[0m
+[0;32mI (133591) DATA_MANAGEMENT: Solar_current pac: -0.05 A[0m
+[0;32mI (133671) MAIN: Received data from semaphore: Battery Voltage: 8.43 V, Solar Voltage: 14.22 V, Solar Current: -0.05 A, Temp 1: 0.00 C[0m
+Temp < 65 
+initial_stage :solar_voltage > battery_voltage & initial_stage flag set
+[0;32mI (133681) Relay_Control: initial_stage :Load supported by Battery + solar energy & battery charged by solar energy.[0m
+[0;32mI (133691) TIME: Current time: 2226-01-01 00:02:13[0m
+[0;32mI (133691) STATE - 7: Solar_assisted_battery_charging Mode[0m
+MOSFET ON for activate STATE- 7
+[0;32mI (133711) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (133791) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (133791) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (133791) DATA_MANAGEMENT: power_supply_voltage: 11.80 V[0m
+[0;32mI (133791) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (133801) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (133811) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (133811) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (133901) STATE - 7: Solar_assisted_battery_charging Mode flag set to 1[0m
+
+2nd STAGE :battery_voltage < BATTERY_MAX_THRESHOLD & batteryHigherThanMaxThreshold flag Not_Set
+[0;32mI (133901) STATE:7: Checking time difference: 0[0m
+[0;32mI (133911) Relay_Control: Current state: 7[0m
+STATE CHANGE OCCURRED: Previous state = 5, New state = 7
+LED changed
+[0;32mI (133921) MAIN: STATE CHANGE OCCURRED.
+[0m
+[0;32mI (133951) PAC1952_READING: Battery_voltage from PAC 1952 : 13.74 V
+[0m
+[0;32mI (133951) PAC1952_READING: Solar_voltage from PAC 1952 : 13.98 V
+[0m
+[0;32mI (133951) PAC1952_READING: Solar current from PAC 1952 : 0.12 A
+[0m
+[0;32mI (133961) DATA_MANAGEMENT: Battery Voltage pac: 13.74 V[0m
+[0;32mI (133961) DATA_MANAGEMENT: Solar_Voltage pac: 13.98 V[0m
+[0;32mI (133971) DATA_MANAGEMENT: Solar_current pac: 0.12 A[0m
+[0;32mI (134131) STATE_CHANGE: State change occurred[0m
+[0;32mI (134171) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (134171) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (134171) DATA_MANAGEMENT: power_supply_voltage: 11.77 V[0m
+[0;32mI (134171) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (134181) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (134191) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (134191) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (134331) PAC1952_READING: Battery_voltage from PAC 1952 : 13.59 V
+[0m
+[0;32mI (134331) PAC1952_READING: Solar_voltage from PAC 1952 : 13.98 V
+[0m
+[0;32mI (134331) PAC1952_READING: Solar current from PAC 1952 : 0.11 A
+[0m
+[0;32mI (134341) DATA_MANAGEMENT: Battery Voltage pac: 13.59 V[0m
+[0;32mI (134341) DATA_MANAGEMENT: Solar_Voltage pac: 13.98 V[0m
+[0;32mI (134351) DATA_MANAGEMENT: Solar_current pac: 0.11 A[0m
+[0;32mI (134481) WIFI_MQTT: MQTT disconnected, trying to reconnect...[0m
+[0;32mI (134481) mqtt_client: Client force reconnect requested[0m
+[0;32mI (134551) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (134551) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (134551) DATA_MANAGEMENT: power_supply_voltage: 11.98 V[0m
+[0;32mI (134551) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (134561) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (134571) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (134571) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (134691) TIME: Current time: 2226-01-01 00:02:14[0m
+[0;32mI (134711) PAC1952_READING: Battery_voltage from PAC 1952 : 13.59 V
+[0m
+[0;32mI (134711) PAC1952_READING: Solar_voltage from PAC 1952 : 13.98 V
+[0m
+[0;32mI (134711) PAC1952_READING: Solar current from PAC 1952 : 0.11 A
+[0m
+[0;32mI (134721) DATA_MANAGEMENT: Battery Voltage pac: 13.59 V[0m
+[0;32mI (134721) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (134721) DATA_MANAGEMENT: Solar_Voltage pac: 13.98 V[0m
+[0;32mI (134731) DATA_MANAGEMENT: Solar_current pac: 0.11 A[0m
+Current LED: GREEN
+GREEN LED is ON
+[0;32mI (134921) MAIN: Received data from semaphore: Battery Voltage: 13.59 V, Solar Voltage: 13.98 V, Solar Current: 0.11 A, Temp 1: 0.00 C[0m
+Temp < 65 
+
+2nd STAGE :battery_voltage > BATTERY_MAX_THRESHOLD 
+2nd STAGE : batteryHigherThanMaxThreshold set hence goes to 3rd section
+[0;32mI (134931) Relay_Control: 4th stage : FT_mode_goes = true[0m
+[0;32mI (134941) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+
+[0;32mI (134941) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+Goes to FT mode
+[0;32mI (134941) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (134951) STATE - 4: Force_Trip Mode[0m
+[0;32mI (134961) DATA_MANAGEMENT: power_supply_voltage: 11.79 V[0m
+[0;32mI (134971) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (134981) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (134981) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (134991) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (135131) PAC1952_READING: Battery_voltage from PAC 1952 : 8.90 V
+[0m
+[0;32mI (135131) PAC1952_READING: Solar_voltage from PAC 1952 : 14.30 V
+[0m
+[0;32mI (135131) PAC1952_READING: Solar current from PAC 1952 : -0.06 A
+[0m
+[0;32mI (135141) DATA_MANAGEMENT: Battery Voltage pac: 8.90 V[0m
+[0;32mI (135141) DATA_MANAGEMENT: Solar_Voltage pac: 14.30 V[0m
+[0;32mI (135151) DATA_MANAGEMENT: Solar_current pac: -0.06 A[0m
+[0;32mI (135161) STATE - 4: Force Trip flag set to 1[0m
+5 second timer starts in STATE : 4
+[0;32mI (135161) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged.[0m
+[0;32mI (135171) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (135181) Relay_Control: Current state: 4[0m
+STATE CHANGE OCCURRED: Previous state = 7, New state = 4
+[0;32mI (135191) MAIN: STATE CHANGE OCCURRED.
+[0m
+[0;32mI (135351) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (135351) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (135351) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;32mI (135351) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (135361) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (135371) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (135371) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (135511) PAC1952_READING: Battery_voltage from PAC 1952 : 8.74 V
+[0m
+[0;32mI (135511) PAC1952_READING: Solar_voltage from PAC 1952 : 14.30 V
+[0m
+[0;32mI (135511) PAC1952_READING: Solar current from PAC 1952 : -0.21 A
+[0m
+[0;32mI (135521) DATA_MANAGEMENT: Battery Voltage pac: 8.74 V[0m
+[0;32mI (135521) DATA_MANAGEMENT: Solar_Voltage pac: 14.30 V[0m
+[0;32mI (135531) DATA_MANAGEMENT: Solar_current pac: -0.21 A[0m
+[0;32mI (135691) TIME: Current time: 2226-01-01 00:02:15[0m
+[0;32mI (135731) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (135731) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (135731) DATA_MANAGEMENT: power_supply_voltage: 12.30 V[0m
+[0;32mI (135741) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (135741) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (135751) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (135761) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (135761) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (135901) PAC1952_READING: Battery_voltage from PAC 1952 : 8.67 V
+[0m
+[0;32mI (135901) PAC1952_READING: Solar_voltage from PAC 1952 : 14.30 V
+[0m
+[0;32mI (135901) PAC1952_READING: Solar current from PAC 1952 : -0.22 A
+[0m
+[0;32mI (135911) DATA_MANAGEMENT: Battery Voltage pac: 8.67 V[0m
+[0;32mI (135911) DATA_MANAGEMENT: Solar_Voltage pac: 14.30 V[0m
+GREEN LED is OFF
+[0;32mI (135921) DATA_MANAGEMENT: Solar_current pac: -0.22 A[0m
+LED changed
+[0;32mI (136131) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (136131) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (136131) DATA_MANAGEMENT: power_supply_voltage: 12.31 V[0m
+[0;31mE (136131) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (136131) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (136141) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 150 with timestamp 197001010002[0m
+[0;32mI (136151) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (136161) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;31mE (136171) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (136171) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 151 with timestamp 197001010002[0m
+[0;32mI (136181) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;31mE (136191) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (136201) MAIN: Received data from semaphore: Battery Voltage: 8.67 V, Solar Voltage: 14.30 V, Solar Current: -0.22 A, Temp 1: 0.00 C[0m
+[0;32mI (136201) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 152 with timestamp 197001010002[0m
+Temp < 65 
+
+[0;32mI (136231) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;31mE (136231) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (136241) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged.[0m
+[0;32mI (136251) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 153 with timestamp 197001010002[0m
+[0;32mI (136251) Relay_Control: 3rd STAGE : battery_voltage > BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag set[0m
+[0;32mI (136271) Relay_Control: Current state: 4[0m
+[0;31mE (136261) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (136281) MAIN: NO STATE CHANGE.
+[0m
+[0;32mI (136291) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 154 with timestamp 197001010002[0m
+[0;31mE (136301) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (136311) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 155 with timestamp 197001010002[0m
+[0;32mI (136321) PAC1952_READING: Battery_voltage from PAC 1952 : 8.67 V
+[0m
+[0;31mE (136321) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (136331) PAC1952_READING: Solar_voltage from PAC 1952 : 14.14 V
+[0m
+[0;32mI (136341) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 156 with timestamp 197001010002[0m
+[0;32mI (136341) PAC1952_READING: Solar current from PAC 1952 : -0.18 A
+[0m
+[0;31mE (136351) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (136361) DATA_MANAGEMENT: Battery Voltage pac: 8.67 V[0m
+[0;32mI (136371) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 157 with timestamp 197001010002[0m
+[0;32mI (136371) DATA_MANAGEMENT: Solar_Voltage pac: 14.14 V[0m
+[0;31mE (136391) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (136391) DATA_MANAGEMENT: Solar_current pac: -0.18 A[0m
+[0;32mI (136401) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 158 with timestamp 197001010002[0m
+[0;31mE (136421) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (136421) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 159 with timestamp 197001010002[0m
+[0;31mE (136431) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (136441) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 160 with timestamp 197001010002[0m
+[0;31mE (136451) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (136461) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 161 with timestamp 197001010002[0m
+[0;31mE (136471) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (136481) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 162 with timestamp 197001010002[0m
+[0;31mE (136491) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (136501) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 163 with timestamp 197001010002[0m
+[0;31mE (136511) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (136511) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 164 with timestamp 197001010002[0m
+[0;31mE (136531) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (136531) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 165 with timestamp 197001010002[0m
+[0;31mE (136541) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (136551) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 166 with timestamp 197001010002[0m
+[0;31mE (136561) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (136571) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 167 with timestamp 197001010002[0m
+[0;31mE (136581) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (136591) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 168 with timestamp 197001010002[0m
+[0;32mI (136601) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;31mE (136601) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (136601) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (136611) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 169 with timestamp 197001010002[0m
+[0;32mI (136621) DATA_MANAGEMENT: power_supply_voltage: 12.33 V[0m
+[0;31mE (136631) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (136641) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (136641) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 170 with timestamp 197001010002[0m
+[0;32mI (136651) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (136661) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;31mE (136671) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (136671) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 171 with timestamp 197001010002[0m
+[0;32mI (136681) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (136691) TIME: Current time: 2226-01-01 00:02:16[0m
+[0;31mE (136691) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (136711) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 172 with timestamp 197001010002[0m
+[0;31mE (136721) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (136731) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 173 with timestamp 197001010002[0m
+[0;31mE (136741) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (136741) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 174 with timestamp 197001010002[0m
+[0;32mI (136751) Relay_Control: No overvoltage detected on CH1[0m
+[0;31mE (136761) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (136771) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 175 with timestamp 197001010002[0m
+[0;31mE (136781) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (136791) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 176 with timestamp 197001010002[0m
+[0;31mE (136801) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (136801) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 177 with timestamp 197001010002[0m
+[0;31mE (136811) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (136821) PAC1952_READING: Battery_voltage from PAC 1952 : 8.59 V
+[0m
+[0;32mI (136821) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 178 with timestamp 197001010002[0m
+[0;32mI (136831) PAC1952_READING: Solar_voltage from PAC 1952 : 0.00 V
+[0m
+[0;31mE (136841) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (136841) PAC1952_READING: Solar current from PAC 1952 : -0.20 A
+[0m
+[0;32mI (136851) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 179 with timestamp 197001010002[0m
+[0;32mI (136861) DATA_MANAGEMENT: Battery Voltage pac: 8.59 V[0m
+[0;31mE (136871) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (136871) DATA_MANAGEMENT: Solar_Voltage pac: 0.00 V[0m
+[0;32mI (136881) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 180 with timestamp 197001010002[0m
+[0;32mI (136891) DATA_MANAGEMENT: Solar_current pac: -0.20 A[0m
+[0;31mE (136901) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (136911) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 181 with timestamp 197001010002[0m
+[0;31mE (136921) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (136931) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 182 with timestamp 197001010002[0m
+[0;31mE (136941) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (136951) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 183 with timestamp 197001010002[0m
+[0;31mE (136961) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (136971) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 184 with timestamp 197001010002[0m
+[0;31mE (136981) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (136981) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 185 with timestamp 197001010002[0m
+[0;31mE (136991) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (137001) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 186 with timestamp 197001010002[0m
+[0;31mE (137011) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (137021) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 187 with timestamp 197001010002[0m
+[0;31mE (137031) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (137041) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 188 with timestamp 197001010002[0m
+[0;31mE (137051) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (137061) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 189 with timestamp 197001010002[0m
+[0;31mE (137071) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (137071) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 190 with timestamp 197001010002[0m
+[0;31mE (137081) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (137091) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 191 with timestamp 197001010002[0m
+[0;32mI (137101) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;31mE (137101) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (137111) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (137121) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 192 with timestamp 197001010002[0m
+[0;32mI (137121) DATA_MANAGEMENT: power_supply_voltage: 12.32 V[0m
+[0;31mE (137131) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (137141) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (137151) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 193 with timestamp 197001010002[0m
+[0;32mI (137151) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (137161) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;31mE (137171) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (137181) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 194 with timestamp 197001010002[0m
+[0;32mI (137181) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;31mE (137191) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (137211) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 195 with timestamp 197001010002[0m
+[0;31mE (137221) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (137231) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 196 with timestamp 197001010002[0m
+[0;31mE (137241) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (137241) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 197 with timestamp 197001010002[0m
+[0;31mE (137251) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (137261) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 198 with timestamp 197001010002[0m
+[0;31mE (137271) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (137281) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 199 with timestamp 197001010002[0m
+[0;32mI (137291) MAIN: Received data from semaphore: Battery Voltage: 8.59 V, Solar Voltage: 0.00 V, Solar Current: -0.20 A, Temp 1: 0.00 C[0m
+Temp < 65 
+[0;32mI (137301) Relay_Control: SOLAR_RELAY_PIN OFF ,SUNDOWN FLAG SET[0m
+
+
+[0;32mI (137311) Relay_Control: 3rd STAGE : batteryHigherThanMaxThreshold section of code[0m
+[0;32mI (137321) Relay_Control: 3rd STAGE :Load supported by battery & battery not charged.[0m
+[0;32mI (137331) PAC1952_READING: Battery_voltage from PAC 1952 : 8.67 V
+[0m
+[0;32mI (137331) Relay_Control: 3rd STAGE : battery_voltage < BATTERY_LOW_THRESHOLD & batteryHigherThanMinThreshold flag Not_Set[0m
+[0;32mI (137331) PAC1952_READING: Solar_voltage from PAC 1952 : 14.14 V
+[0m
+[0;32mI (137351) STATE - 5: UPS Mode[0m
+[0;32mI (137351) PAC1952_READING: Solar current from PAC 1952 : -0.22 A
+[0m
+[0;32mI (137361) DATA_MANAGEMENT: Battery Voltage pac: 8.67 V[0m
+[0;32mI (137371) DATA_MANAGEMENT: Solar_Voltage pac: 14.14 V[0m
+[0;32mI (137371) DATA_MANAGEMENT: Solar_current pac: -0.22 A[0m
+[0;32mI (137561) STATE - 5: UPS Mode flag set to 1[0m
+[0;32mI (137561) Relay_Control: 3rd STAGE : Load supported by utility grid & battery charged by utility grid.[0m
+[0;32mI (137561) Relay_Control: Current state: 5[0m
+STATE CHANGE OCCURRED: Previous state = 4, New state = 5
+5 Second timer starts in STATE: 5!! 
+[0;32mI (137571) MAIN: STATE CHANGE OCCURRED.
+[0m
+[0;32mI (137581) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (137581) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (137591) DATA_MANAGEMENT: power_supply_voltage: 11.86 V[0m
+[0;32mI (137601) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (137601) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (137611) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (137611) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+LED changed
+[0;32mI (137701) TIME: Current time: 2226-01-01 00:02:17[0m
+[0;32mI (137751) PAC1952_READING: Battery_voltage from PAC 1952 : 8.51 V
+[0m
+[0;32mI (137751) PAC1952_READING: Solar_voltage from PAC 1952 : 14.22 V
+[0m
+[0;32mI (137751) PAC1952_READING: Solar current from PAC 1952 : -0.05 A
+[0m
+[0;32mI (137761) DATA_MANAGEMENT: Battery Voltage pac: 8.51 V[0m
+[0;32mI (137761) DATA_MANAGEMENT: Solar_Voltage pac: 14.22 V[0m
+[0;32mI (137771) Relay_Control: No overvoltage detected on CH1[0m
+[0;32mI (137771) DATA_MANAGEMENT: Solar_current pac: -0.05 A[0m
+[0;32mI (137791) STATE_CHANGE: State change occurred[0m
+[0;32mI (137981) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (137981) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (137981) DATA_MANAGEMENT: power_supply_voltage: 11.75 V[0m
+[0;32mI (137981) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (137991) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (138001) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (138001) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (138141) PAC1952_READING: Battery_voltage from PAC 1952 : 8.59 V
+[0m
+[0;32mI (138141) PAC1952_READING: Solar_voltage from PAC 1952 : 14.22 V
+[0m
+[0;32mI (138141) PAC1952_READING: Solar current from PAC 1952 : -0.06 A
+[0m
+[0;32mI (138151) DATA_MANAGEMENT: Battery Voltage pac: 8.59 V[0m
+[0;32mI (138151) DATA_MANAGEMENT: Solar_Voltage pac: 14.22 V[0m
+[0;32mI (138161) DATA_MANAGEMENT: Solar_current pac: -0.06 A[0m
+[0;32mI (138361) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (138361) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (138361) DATA_MANAGEMENT: power_supply_voltage: 11.75 V[0m
+[0;32mI (138361) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (138371) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (138381) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (138381) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (138521) PAC1952_READING: Battery_voltage from PAC 1952 : 8.51 V
+[0m
+[0;32mI (138521) PAC1952_READING: Solar_voltage from PAC 1952 : 14.22 V
+[0m
+[0;32mI (138521) PAC1952_READING: Solar current from PAC 1952 : -0.05 A
+[0m
+[0;32mI (138531) DATA_MANAGEMENT: Battery Voltage pac: 8.51 V[0m
+[0;32mI (138531) DATA_MANAGEMENT: Solar_Voltage pac: 14.22 V[0m
+[0;32mI (138541) DATA_MANAGEMENT: Solar_current pac: -0.05 A[0m
+[0;32mI (138581) MAIN: Received data from semaphore: Battery Voltage: 8.51 V, Solar Voltage: 14.22 V, Solar Current: -0.05 A, Temp 1: 0.00 C[0m
+Temp < 65 
+[0;32mI (138581) Relay_Control: SOLAR_RELAY_PIN ON ,SUNUP FLAG SET[0m
+
+initial_stage :solar_voltage > battery_voltage & initial_stage flag set
+[0;32mI (138591) Relay_Control: Current state: 5[0m
+[0;32mI (138601) MAIN: NO STATE CHANGE.
+[0m
+Current LED: BLUE
+BLUE LED is ON
+[0;32mI (138701) TIME: Current time: 2226-01-01 00:02:18[0m
+[0;32mI (138741) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (138741) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (138741) DATA_MANAGEMENT: power_supply_voltage: 11.68 V[0m
+[0;32mI (138741) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (138751) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (138761) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (138761) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (138781) Relay_Control: Overvoltage alert triggered on CH1[0m
+Overvoltage flag set to activate the interrupt!
+[0;32mI (138901) PAC1952_READING: Battery_voltage from PAC 1952 : 8.51 V
+[0m
+[0;32mI (138901) PAC1952_READING: Solar_voltage from PAC 1952 : 14.30 V
+[0m
+[0;32mI (138901) PAC1952_READING: Solar current from PAC 1952 : -0.06 A
+[0m
+[0;32mI (138911) DATA_MANAGEMENT: Battery Voltage pac: 8.51 V[0m
+[0;32mI (138911) DATA_MANAGEMENT: Solar_Voltage pac: 14.30 V[0m
+[0;32mI (138921) DATA_MANAGEMENT: Solar_current pac: -0.06 A[0m
+[0;32mI (139121) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (139121) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (139121) DATA_MANAGEMENT: power_supply_voltage: 11.75 V[0m
+[0;32mI (139121) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (139131) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (139141) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (139141) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (139281) PAC1952_READING: Battery_voltage from PAC 1952 : 8.51 V
+[0m
+[0;32mI (139281) PAC1952_READING: Solar_voltage from PAC 1952 : 14.22 V
+[0m
+[0;32mI (139281) PAC1952_READING: Solar current from PAC 1952 : -0.06 A
+[0m
+[0;32mI (139291) DATA_MANAGEMENT: Battery Voltage pac: 8.51 V[0m
+[0;32mI (139291) DATA_MANAGEMENT: Solar_Voltage pac: 14.22 V[0m
+[0;32mI (139301) DATA_MANAGEMENT: Solar_current pac: -0.06 A[0m
+[0;32mI (139481) WIFI_MQTT: MQTT disconnected, trying to reconnect...[0m
+[0;32mI (139481) mqtt_client: Client force reconnect requested[0m
+[0;32mI (139501) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;32mI (139501) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (139501) DATA_MANAGEMENT: power_supply_voltage: 11.80 V[0m
+[0;32mI (139501) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (139511) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (139521) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (139521) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (139601) MAIN: Received data from semaphore: Battery Voltage: 8.51 V, Solar Voltage: 14.22 V, Solar Current: -0.06 A, Temp 1: 0.00 C[0m
+Temp < 65 
+initial_stage :solar_voltage > battery_voltage & initial_stage flag set
+[0;32mI (139611) Relay_Control: Current state: 5[0m
+[0;32mI (139611) MAIN: NO STATE CHANGE.
+[0m
+BLUE LED is OFF
+[0;32mI (139661) PAC1952_READING: Battery_voltage from PAC 1952 : 8.43 V
+[0m
+[0;32mI (139661) PAC1952_READING: Solar_voltage from PAC 1952 : 14.14 V
+[0m
+[0;32mI (139661) PAC1952_READING: Solar current from PAC 1952 : -0.05 A
+[0m
+[0;32mI (139671) DATA_MANAGEMENT: Battery Voltage pac: 8.43 V[0m
+[0;32mI (139671) DATA_MANAGEMENT: Solar_Voltage pac: 14.14 V[0m
+[0;32mI (139681) DATA_MANAGEMENT: Solar_current pac: -0.05 A[0m
+[0;32mI (139701) TIME: Current time: 2226-01-01 00:02:19[0m
+[0;32mI (139791) Relay_Control: No overvoltage detected on CH1[0m
+[0;31mE (139791) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (139791) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 200 with timestamp 197001010002[0m
+[0;31mE (139801) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (139811) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 201 with timestamp 197001010002[0m
+[0;31mE (139821) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (139831) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 202 with timestamp 197001010002[0m
+[0;31mE (139841) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (139851) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 203 with timestamp 197001010002[0m
+[0;31mE (139861) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (139861) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 204 with timestamp 197001010002[0m
+[0;32mI (139881) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;31mE (139881) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (139881) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (139891) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 205 with timestamp 197001010002[0m
+[0;32mI (139891) DATA_MANAGEMENT: power_supply_voltage: 11.80 V[0m
+[0;31mE (139911) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (139911) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (139921) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 206 with timestamp 197001010002[0m
+[0;32mI (139921) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (139941) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;31mE (139941) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (139951) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 207 with timestamp 197001010002[0m
+[0;32mI (139961) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;31mE (139971) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (139981) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 208 with timestamp 197001010002[0m
+[0;31mE (139991) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (140001) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 209 with timestamp 197001010002[0m
+[0;31mE (140011) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (140021) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 210 with timestamp 197001010002[0m
+[0;31mE (140031) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (140041) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 211 with timestamp 197001010002[0m
+[0;31mE (140051) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (140051) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 212 with timestamp 197001010002[0m
+[0;31mE (140071) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (140071) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 213 with timestamp 197001010002[0m
+[0;31mE (140081) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (140091) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 214 with timestamp 197001010002[0m
+[0;32mI (140101) PAC1952_READING: Battery_voltage from PAC 1952 : 8.43 V
+[0m
+[0;31mE (140101) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (140111) PAC1952_READING: Solar_voltage from PAC 1952 : 14.22 V
+[0m
+[0;32mI (140121) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 215 with timestamp 197001010002[0m
+[0;32mI (140121) PAC1952_READING: Solar current from PAC 1952 : -0.04 A
+[0m
+[0;31mE (140141) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (140141) DATA_MANAGEMENT: Battery Voltage pac: 8.43 V[0m
+[0;32mI (140151) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 216 with timestamp 197001010002[0m
+[0;32mI (140151) DATA_MANAGEMENT: Solar_Voltage pac: 14.22 V[0m
+[0;31mE (140171) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (140171) DATA_MANAGEMENT: Solar_current pac: -0.04 A[0m
+[0;32mI (140181) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 217 with timestamp 197001010002[0m
+[0;31mE (140201) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (140201) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 218 with timestamp 197001010002[0m
+[0;31mE (140221) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 200ms_data[0m
+[0;32mI (140221) DATA_MANAGEMENT: Saved failed buffer data from 200ms at index 219 with timestamp 197001010002[0m
+[0;31mE (140231) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (140241) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 220 with timestamp 197001010002[0m
+[0;31mE (140251) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (140261) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 221 with timestamp 197001010002[0m
+[0;31mE (140271) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (140281) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 222 with timestamp 197001010002[0m
+[0;31mE (140291) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (140291) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 223 with timestamp 197001010002[0m
+[0;31mE (140301) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (140311) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 224 with timestamp 197001010002[0m
+[0;31mE (140321) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (140331) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 225 with timestamp 197001010002[0m
+[0;31mE (140341) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (140351) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 226 with timestamp 197001010002[0m
+[0;31mE (140361) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (140361) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 227 with timestamp 197001010002[0m
+[0;31mE (140381) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (140381) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 228 with timestamp 197001010002[0m
+[0;32mI (140391) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;31mE (140391) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (140401) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (140411) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 229 with timestamp 197001010002[0m
+[0;32mI (140411) DATA_MANAGEMENT: power_supply_voltage: 11.82 V[0m
+[0;31mE (140421) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (140431) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (140441) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 230 with timestamp 197001010002[0m
+[0;32mI (140441) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (140451) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (140471) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 231 with timestamp 197001010002[0m
+[0;31mE (140461) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;31mE (140481) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (140481) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (140491) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 232 with timestamp 197001010002[0m
+[0;31mE (140511) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (140511) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 233 with timestamp 197001010002[0m
+[0;31mE (140521) DATA_MANAGEMENT: MQTT client is not connected, cannot publish data[0m
+[0;32mI (140531) DATA_MANAGEMENT: Saved failed buffer data from 4s at index 234 with timestamp 197001010002[0m
+[0;31mE (140541) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (140551) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 235 with timestamp 197001010002[0m
+[0;31mE (140561) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (140571) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 236 with timestamp 197001010002[0m
+[0;31mE (140581) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (140581) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 237 with timestamp 197001010002[0m
+[0;31mE (140601) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (140601) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 238 with timestamp 197001010002[0m
+[0;32mI (140611) MAIN: Received data from semaphore: Battery Voltage: 8.43 V, Solar Voltage: 14.22 V, Solar Current: -0.04 A, Temp 1: 0.00 C[0m
+[0;32mI (140621) PAC1952_READING: Battery_voltage from PAC 1952 : 8.35 V
+[0m
+Temp < 65 
+[0;32mI (140631) PAC1952_READING: Solar_voltage from PAC 1952 : 14.30 V
+[0m
+initial_stage :solar_voltage > battery_voltage & initial_stage flag set
+[0;32mI (140641) PAC1952_READING: Solar current from PAC 1952 : -0.04 A
+[0m
+[0;32mI (140651) Relay_Control: Current state: 5[0m
+[0;32mI (140651) DATA_MANAGEMENT: Battery Voltage pac: 8.35 V[0m
+[0;32mI (140661) MAIN: NO STATE CHANGE.
+[0m
+[0;32mI (140661) DATA_MANAGEMENT: Solar_Voltage pac: 14.30 V[0m
+Current LED: BLUE
+BLUE LED is ON
+[0;32mI (140671) DATA_MANAGEMENT: Solar_current pac: -0.04 A[0m
+[0;31mE (140621) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (140691) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 239 with timestamp 197001010002[0m
+[0;32mI (140701) TIME: Current time: 2226-01-01 00:02:20[0m
+[0;31mE (140701) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (140721) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 240 with timestamp 197001010002[0m
+[0;31mE (140731) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (140731) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 241 with timestamp 197001010002[0m
+[0;31mE (140741) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (140751) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 242 with timestamp 197001010002[0m
+[0;31mE (140761) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (140771) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 243 with timestamp 197001010002[0m
+[0;31mE (140781) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (140791) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 244 with timestamp 197001010002[0m
+[0;32mI (140801) Relay_Control: No overvoltage detected on CH1[0m
+[0;31mE (140801) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (140811) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 245 with timestamp 197001010002[0m
+[0;31mE (140821) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (140831) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 246 with timestamp 197001010002[0m
+[0;31mE (140841) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (140851) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 247 with timestamp 197001010002[0m
+[0;31mE (140861) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (140871) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 248 with timestamp 197001010002[0m
+[0;32mI (140881) DATA_MANAGEMENT: Battery Voltage adc: 18.00 V[0m
+[0;31mE (140881) DATA_MANAGEMENT: MQTT client is not connected, cannot publish 1m_data[0m
+[0;32mI (140881) DATA_MANAGEMENT: Solar Voltage adc: 18.00 V[0m
+[0;32mI (140891) DATA_MANAGEMENT: Saved failed buffer data from 1min at index 249 with timestamp 197001010002[0m
+[0;32mI (140901) DATA_MANAGEMENT: power_supply_voltage: 11.77 V[0m
+[0;32mI (140911) DATA_MANAGEMENT: SSR_temperature(Temp1): 0 °C[0m
+[0;32mI (140921) DATA_MANAGEMENT: internal_temperature(Temp2): 0 °C[0m
+[0;31mE (140921) ADC_READING: Failed to read SSR Temp (GPIO2)[0m
+[0;32mI (140931) DATA_MANAGEMENT: solar_heat_sink(Temp3): 0 °C[0m
+[0;32mI (141071) PAC1952_READING: Battery_voltage from PAC 1952 : 8.43 V
+[0m

@@ -1,0 +1,130 @@
+[1/14] Building C object esp-idf/Relay_Control/CMakeFiles/__idf_Relay_Control.dir/Relay_Control.c.obj
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/Relay_Control/Relay_Control.c:80:1: warning: ignoring attribute 'section (".iram1.1")' because it conflicts with previous 'section (".iram1.0")' [-Wattributes]
+   80 | {
+      | ^
+In file included from C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/Relay_Control/Relay_Control.c:11:
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/Relay_Control/include/Relay_Control.h:60:16: note: previous declaration here
+   60 | void IRAM_ATTR alert_isr_handler();
+      |                ^~~~~~~~~~~~~~~~~
+[2/14] Building C object esp-idf/Server_buffer/CMakeFiles/__idf_Server_buffer.dir/Server_buffer.c.obj
+In file included from C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/samples_read/include/samples_read.h:7,
+                 from C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/Server_buffer/Server_buffer.c:33:
+C:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/Server_buffer/Server_buffer.c: In function 'detect_state_change':
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/Server_buffer/Server_buffer.c:1626:22: warning: variable 'all_publish_success' set but not used [-Wunused-but-set-variable]
+ 1626 |                 bool all_publish_success = true;
+      |                      ^~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/Server_buffer/Server_buffer.c: At top level:
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/Server_buffer/Server_buffer.c:402:13: warning: 'current_file_name' defined but not used [-Wunused-variable]
+  402 | static char current_file_name[MAX_FILENAME_LENGTH]; // To store the current file name
+      |             ^~~~~~~~~~~~~~~~~
+[3/14] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+In file included from C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/samples_read/include/samples_read.h:7,
+                 from C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/main/main.c:26:
+C:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/main/main.c:35:
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/ota/include/ota.h:16:13: warning: 'ota_write_data' defined but not used [-Wunused-variable]
+   16 | static char ota_write_data[BUFFSIZE + 1] = { 0 };
+      |             ^~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/components/ota/include/ota.h:10:20: warning: 'TAG' defined but not used [-Wunused-variable]
+   10 | static const char *TAG = "native_ota_example";
+      |                    ^~~
+[4/14] Linking C static library esp-idf\Relay_Control\libRelay_Control.a
+[5/14] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.2.2\My_Projects\iCON_HV_FirmwareV1\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.2.2/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6860 bytes. 0x7a0 bytes (7%) free.
+[6/12] Linking C static library esp-idf\Server_buffer\libServer_buffer.a
+[7/12] Linking C static library esp-idf\main\libmain.a
+[8/12] Generating ld/sections.ld
+[9/12] Linking CXX executable app-template.elf
+[10/12] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/build/app-template.bin
+[11/12] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.2.2\My_Projects\iCON_HV_FirmwareV1\build\esp-idf\esptool_py && C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.2.2/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/build/partition_table/partition-table.bin C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/build/app-template.bin"
+app-template.bin binary size 0x1097e0 bytes. Smallest app partition is 0x140000 bytes. 0x36820 bytes (17%) free.
+[11/12] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.2.2\components\esptool_py && C:\Espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=C:/Espressif/frameworks/esp-idf-v5.2.2 -Desptool.py --chip esp32 -p COM6 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader/bootloader.bin 0x10000 app-template.bin 0x8000 partition_table/partition-table.bin 0xe000 ota_data_initial.bin
+esptool.py v4.7.0
+Serial port COM6
+Connecting....
+Chip is ESP32-U4WDH (revision v3.1)
+Features: WiFi, BT, Dual Core, 240MHz, Embedded Flash, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: c4:d8:d5:64:9d:5c
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x00119fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Flash will be erased from 0x0000e000 to 0x0000ffff...
+Compressed 26720 bytes to 16349...
+Writing at 0x00001000... (100 %)
+Wrote 26720 bytes (16349 compressed) at 0x00001000 in 0.7 seconds (effective 287.7 kbit/s)...
+Hash of data verified.
+Compressed 1087456 bytes to 671882...
+Writing at 0x00010000... (2 %)
+Writing at 0x0001e1f7... (4 %)
+Writing at 0x0002b1c0... (7 %)
+Writing at 0x00031edd... (9 %)
+Writing at 0x000370da... (11 %)
+Writing at 0x00040c35... (14 %)
+Writing at 0x000467a5... (16 %)
+Writing at 0x0004c9a5... (19 %)
+Writing at 0x000526b8... (21 %)
+Writing at 0x0005808b... (23 %)
+Writing at 0x0005e14d... (26 %)
+Writing at 0x00064168... (28 %)
+Writing at 0x00069b89... (30 %)
+Writing at 0x0006f86d... (33 %)
+Writing at 0x00075588... (35 %)
+Writing at 0x0007b2d6... (38 %)
+Writing at 0x00081b8a... (40 %)
+Writing at 0x000876e0... (42 %)
+Writing at 0x0008d30e... (45 %)
+Writing at 0x00093b6e... (47 %)
+Writing at 0x0009971b... (50 %)
+Writing at 0x0009f2cc... (52 %)
+Writing at 0x000a4b36... (54 %)
+Writing at 0x000a9d44... (57 %)
+Writing at 0x000af2ba... (59 %)
+Writing at 0x000b4525... (61 %)
+Writing at 0x000b9c37... (64 %)
+Writing at 0x000bf33f... (66 %)
+Writing at 0x000c4db4... (69 %)
+Writing at 0x000ca6a9... (71 %)
+Writing at 0x000d00b5... (73 %)
+Writing at 0x000d5e63... (76 %)
+Writing at 0x000db578... (78 %)
+Writing at 0x000e0bc3... (80 %)
+Writing at 0x000e8661... (83 %)
+Writing at 0x000f3825... (85 %)
+Writing at 0x000f9795... (88 %)
+Writing at 0x001026d2... (90 %)
+Writing at 0x001081b4... (92 %)
+Writing at 0x0010de64... (95 %)
+Writing at 0x00113e55... (97 %)
+Writing at 0x0011972b... (100 %)
+Wrote 1087456 bytes (671882 compressed) at 0x00010000 in 17.7 seconds (effective 491.5 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 130...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (130 compressed) at 0x00008000 in 0.1 seconds (effective 250.6 kbit/s)...
+Hash of data verified.
+Compressed 8192 bytes to 31...
+Writing at 0x0000e000... (100 %)
+Wrote 8192 bytes (31 compressed) at 0x0000e000 in 0.1 seconds (effective 496.8 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+ SERIAL_TOOL=C:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe;;C:/Espressif/frameworks/esp-idf-v5.2.2/components/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args -D WORKING_DIRECTORY=C:/Espressif/frameworks/esp-idf-v5.2.2/My_Projects/iCON_HV_FirmwareV1/build -P C:/Espressif/frameworks/esp-idf-v5.2.2/components/esptool_py/run_serial_tool.cmake"
